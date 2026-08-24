@@ -1,0 +1,225 @@
+{"index": "flat", "query": "Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics", "top_similarity": 0.7176635265350342, "in_domain": true}
+{"index": "flat", "query": "Affordable gaming laptop with a dedicated GPU and 512 GB SSD", "top_similarity": 0.7349041700363159, "in_domain": true}
+{"index": "flat", "query": "Laptop for university programming with 16 GB RAM", "top_similarity": 0.6977511048316956, "in_domain": true}
+{"index": "flat", "query": "Lightweight student laptop under 2 kg with long battery life", "top_similarity": 0.7268374562263489, "in_domain": true}
+{"index": "flat", "query": "Business laptop with a comfortable keyboard under 1200 USD", "top_similarity": 0.704311728477478, "in_domain": true}
+{"index": "flat", "query": "Portable professional laptop with a bright display and good battery life", "top_similarity": 0.8097345232963562, "in_domain": true}
+{"index": "flat", "query": "Programming laptop with a powerful CPU and at least 512 GB storage", "top_similarity": 0.6908302903175354, "in_domain": true}
+{"index": "flat", "query": "Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM", "top_similarity": 0.7199594378471375, "in_domain": true}
+{"index": "flat", "query": "Creative work laptop with a high resolution display and fast SSD", "top_similarity": 0.7705564498901367, "in_domain": true}
+{"index": "flat", "query": "Workstation laptop with RTX graphics and at least 32 GB RAM", "top_similarity": 0.7517563700675964, "in_domain": true}
+{"index": "flat", "query": "Windows laptop under 1000 USD with 16 GB RAM", "top_similarity": 0.6918154358863831, "in_domain": true}
+{"index": "flat", "query": "Laptop between 800 and 1400 USD with SSD storage", "top_similarity": 0.7006229162216187, "in_domain": true}
+{"index": "flat", "query": "Laptop below 900 USD for office work", "top_similarity": 0.7156671285629272, "in_domain": true}
+{"index": "flat", "query": "Laptop above 1500 USD with a powerful processor", "top_similarity": 0.7355871796607971, "in_domain": true}
+{"index": "flat", "query": "Dell laptop for business use with a comfortable keyboard", "top_similarity": 0.7833327651023865, "in_domain": true}
+{"index": "flat", "query": "Lenovo laptop for programming with at least 16 GB RAM", "top_similarity": 0.7513647675514221, "in_domain": true}
+{"index": "flat", "query": "HP laptop for students with a lightweight design", "top_similarity": 0.754562258720398, "in_domain": true}
+{"index": "flat", "query": "Asus gaming laptop with RTX graphics under 2000 USD", "top_similarity": 0.7359289526939392, "in_domain": true}
+{"index": "flat", "query": "Acer laptop with at least 512 GB storage and Windows", "top_similarity": 0.7760838866233826, "in_domain": true}
+{"index": "flat", "query": "Laptop without RTX graphics for quiet office work", "top_similarity": 0.7396337985992432, "in_domain": true}
+{"index": "flat", "query": "Laptop that must have 32 GB RAM for software development", "top_similarity": 0.7095757126808167, "in_domain": true}
+{"index": "flat", "query": "Laptop required to have an SSD and Windows operating system", "top_similarity": 0.727760910987854, "in_domain": true}
+{"index": "flat", "query": "Only lightweight laptops under 1.8 kg for travel", "top_similarity": 0.7421605587005615, "in_domain": true}
+{"index": "flat", "query": "Laptop with at least 1 TB storage for media files", "top_similarity": 0.6689084768295288, "in_domain": true}
+{"index": "flat", "query": "Laptop with at least 16 GB RAM and a comfortable keyboard", "top_similarity": 0.7449785470962524, "in_domain": true}
+{"index": "flat", "query": "Portable laptop under 1200 USD with a good display", "top_similarity": 0.6976778507232666, "in_domain": true}
+{"index": "flat", "query": "Gaming laptop with RTX 4060 and 16 GB RAM", "top_similarity": 0.8006875514984131, "in_domain": true}
+{"index": "flat", "query": "Laptop with GTX graphics and at least 512 GB storage", "top_similarity": 0.7204925417900085, "in_domain": true}
+{"index": "flat", "query": "Business laptop under 1500 USD that is not Dell", "top_similarity": 0.7370028495788574, "in_domain": true}
+{"index": "flat", "query": "Linux laptop for programming with at least 16 GB RAM", "top_similarity": 0.6977095603942871, "in_domain": true}
+{"index": "flat", "query": "Laptop for office and video calls with long battery life", "top_similarity": 0.7063890099525452, "in_domain": true}
+{"index": "flat", "query": "Laptop under 700 USD for basic student work", "top_similarity": 0.6834588646888733, "in_domain": true}
+{"index": "flat", "query": "Laptop between 1000 and 1800 USD for creative professionals", "top_similarity": 0.687731146812439, "in_domain": true}
+{"index": "flat", "query": "Laptop with a 15 inch or larger display for productivity", "top_similarity": 0.753944993019104, "in_domain": true}
+{"index": "flat", "query": "Laptop below 2 kg with at least 8 GB RAM", "top_similarity": 0.7176549434661865, "in_domain": true}
+{"index": "flat", "query": "Gaming laptop with a high refresh rate display and dedicated GPU", "top_similarity": 0.7504532337188721, "in_domain": true}
+{"index": "flat", "query": "Laptop for machine learning experiments with NVIDIA graphics", "top_similarity": 0.7013162970542908, "in_domain": true}
+{"index": "flat", "query": "Quiet lightweight business laptop with an SSD", "top_similarity": 0.7682637572288513, "in_domain": true}
+{"index": "flat", "query": "Laptop with strong battery life and a comfortable keyboard for university", "top_similarity": 0.7611701488494873, "in_domain": true}
+{"index": "flat", "query": "Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage", "top_similarity": 0.7172770500183105, "in_domain": true}
+{"index": "flat", "query": "How do I bake a chocolate cake?", "top_similarity": 0.47210562229156494, "in_domain": false}
+{"index": "flat", "query": "What will the weather be tomorrow?", "top_similarity": 0.6065658330917358, "in_domain": false}
+{"index": "flat", "query": "Recommend a smartphone with a good camera", "top_similarity": 0.620750904083252, "in_domain": false}
+{"index": "flat", "query": "Explain the rules of association football", "top_similarity": 0.5532764792442322, "in_domain": false}
+{"index": "flat", "query": "Write a poem about the ocean", "top_similarity": 0.5495697855949402, "in_domain": false}
+{"index": "ivf_flat", "query": "Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics", "top_similarity": 0.7176636457443237, "in_domain": true}
+{"index": "ivf_flat", "query": "Affordable gaming laptop with a dedicated GPU and 512 GB SSD", "top_similarity": 0.7349042892456055, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop for university programming with 16 GB RAM", "top_similarity": 0.6977510452270508, "in_domain": true}
+{"index": "ivf_flat", "query": "Lightweight student laptop under 2 kg with long battery life", "top_similarity": 0.7268376350402832, "in_domain": true}
+{"index": "ivf_flat", "query": "Business laptop with a comfortable keyboard under 1200 USD", "top_similarity": 0.7043119668960571, "in_domain": true}
+{"index": "ivf_flat", "query": "Portable professional laptop with a bright display and good battery life", "top_similarity": 0.809734582901001, "in_domain": true}
+{"index": "ivf_flat", "query": "Programming laptop with a powerful CPU and at least 512 GB storage", "top_similarity": 0.6908302307128906, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM", "top_similarity": 0.7199594974517822, "in_domain": true}
+{"index": "ivf_flat", "query": "Creative work laptop with a high resolution display and fast SSD", "top_similarity": 0.7705566883087158, "in_domain": true}
+{"index": "ivf_flat", "query": "Workstation laptop with RTX graphics and at least 32 GB RAM", "top_similarity": 0.7517563104629517, "in_domain": true}
+{"index": "ivf_flat", "query": "Windows laptop under 1000 USD with 16 GB RAM", "top_similarity": 0.6918156147003174, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop between 800 and 1400 USD with SSD storage", "top_similarity": 0.7006228566169739, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop below 900 USD for office work", "top_similarity": 0.7156671285629272, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop above 1500 USD with a powerful processor", "top_similarity": 0.7355872392654419, "in_domain": true}
+{"index": "ivf_flat", "query": "Dell laptop for business use with a comfortable keyboard", "top_similarity": 0.7833327651023865, "in_domain": true}
+{"index": "ivf_flat", "query": "Lenovo laptop for programming with at least 16 GB RAM", "top_similarity": 0.7513648271560669, "in_domain": true}
+{"index": "ivf_flat", "query": "HP laptop for students with a lightweight design", "top_similarity": 0.7545621395111084, "in_domain": true}
+{"index": "ivf_flat", "query": "Asus gaming laptop with RTX graphics under 2000 USD", "top_similarity": 0.7359290719032288, "in_domain": true}
+{"index": "ivf_flat", "query": "Acer laptop with at least 512 GB storage and Windows", "top_similarity": 0.7760838270187378, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop without RTX graphics for quiet office work", "top_similarity": 0.7396339774131775, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop that must have 32 GB RAM for software development", "top_similarity": 0.7095756530761719, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop required to have an SSD and Windows operating system", "top_similarity": 0.7277607917785645, "in_domain": true}
+{"index": "ivf_flat", "query": "Only lightweight laptops under 1.8 kg for travel", "top_similarity": 0.7421607375144958, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with at least 1 TB storage for media files", "top_similarity": 0.6689083576202393, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with at least 16 GB RAM and a comfortable keyboard", "top_similarity": 0.7449784278869629, "in_domain": true}
+{"index": "ivf_flat", "query": "Portable laptop under 1200 USD with a good display", "top_similarity": 0.6976780891418457, "in_domain": true}
+{"index": "ivf_flat", "query": "Gaming laptop with RTX 4060 and 16 GB RAM", "top_similarity": 0.8006876111030579, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with GTX graphics and at least 512 GB storage", "top_similarity": 0.7204926609992981, "in_domain": true}
+{"index": "ivf_flat", "query": "Business laptop under 1500 USD that is not Dell", "top_similarity": 0.7370028495788574, "in_domain": true}
+{"index": "ivf_flat", "query": "Linux laptop for programming with at least 16 GB RAM", "top_similarity": 0.6977096199989319, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop for office and video calls with long battery life", "top_similarity": 0.7063888907432556, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop under 700 USD for basic student work", "top_similarity": 0.6834588050842285, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop between 1000 and 1800 USD for creative professionals", "top_similarity": 0.6877312660217285, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with a 15 inch or larger display for productivity", "top_similarity": 0.7539451122283936, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop below 2 kg with at least 8 GB RAM", "top_similarity": 0.7176549434661865, "in_domain": true}
+{"index": "ivf_flat", "query": "Gaming laptop with a high refresh rate display and dedicated GPU", "top_similarity": 0.7504534721374512, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop for machine learning experiments with NVIDIA graphics", "top_similarity": 0.701316237449646, "in_domain": true}
+{"index": "ivf_flat", "query": "Quiet lightweight business laptop with an SSD", "top_similarity": 0.7682636380195618, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with strong battery life and a comfortable keyboard for university", "top_similarity": 0.7611701488494873, "in_domain": true}
+{"index": "ivf_flat", "query": "Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage", "top_similarity": 0.7172769904136658, "in_domain": true}
+{"index": "ivf_flat", "query": "How do I bake a chocolate cake?", "top_similarity": 0.4721055328845978, "in_domain": false}
+{"index": "ivf_flat", "query": "What will the weather be tomorrow?", "top_similarity": 0.6065657138824463, "in_domain": false}
+{"index": "ivf_flat", "query": "Recommend a smartphone with a good camera", "top_similarity": 0.6207507252693176, "in_domain": false}
+{"index": "ivf_flat", "query": "Explain the rules of association football", "top_similarity": 0.553276538848877, "in_domain": false}
+{"index": "ivf_flat", "query": "Write a poem about the ocean", "top_similarity": 0.5495697855949402, "in_domain": false}
+{"index": "pq", "query": "Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics", "top_similarity": 0.7109849452972412, "in_domain": true}
+{"index": "pq", "query": "Affordable gaming laptop with a dedicated GPU and 512 GB SSD", "top_similarity": 0.6960251927375793, "in_domain": true}
+{"index": "pq", "query": "Laptop for university programming with 16 GB RAM", "top_similarity": 0.6587075591087341, "in_domain": true}
+{"index": "pq", "query": "Lightweight student laptop under 2 kg with long battery life", "top_similarity": 0.6934294104576111, "in_domain": true}
+{"index": "pq", "query": "Business laptop with a comfortable keyboard under 1200 USD", "top_similarity": 0.6632376313209534, "in_domain": true}
+{"index": "pq", "query": "Portable professional laptop with a bright display and good battery life", "top_similarity": 0.7550967335700989, "in_domain": true}
+{"index": "pq", "query": "Programming laptop with a powerful CPU and at least 512 GB storage", "top_similarity": 0.6583496332168579, "in_domain": true}
+{"index": "pq", "query": "Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM", "top_similarity": 0.678002655506134, "in_domain": true}
+{"index": "pq", "query": "Creative work laptop with a high resolution display and fast SSD", "top_similarity": 0.7310546636581421, "in_domain": true}
+{"index": "pq", "query": "Workstation laptop with RTX graphics and at least 32 GB RAM", "top_similarity": 0.7154731750488281, "in_domain": true}
+{"index": "pq", "query": "Windows laptop under 1000 USD with 16 GB RAM", "top_similarity": 0.6547055244445801, "in_domain": true}
+{"index": "pq", "query": "Laptop between 800 and 1400 USD with SSD storage", "top_similarity": 0.6681088209152222, "in_domain": true}
+{"index": "pq", "query": "Laptop below 900 USD for office work", "top_similarity": 0.6712218523025513, "in_domain": true}
+{"index": "pq", "query": "Laptop above 1500 USD with a powerful processor", "top_similarity": 0.7058939337730408, "in_domain": true}
+{"index": "pq", "query": "Dell laptop for business use with a comfortable keyboard", "top_similarity": 0.7404323220252991, "in_domain": true}
+{"index": "pq", "query": "Lenovo laptop for programming with at least 16 GB RAM", "top_similarity": 0.7350641489028931, "in_domain": true}
+{"index": "pq", "query": "HP laptop for students with a lightweight design", "top_similarity": 0.7178550958633423, "in_domain": true}
+{"index": "pq", "query": "Asus gaming laptop with RTX graphics under 2000 USD", "top_similarity": 0.7006812691688538, "in_domain": true}
+{"index": "pq", "query": "Acer laptop with at least 512 GB storage and Windows", "top_similarity": 0.7259116172790527, "in_domain": true}
+{"index": "pq", "query": "Laptop without RTX graphics for quiet office work", "top_similarity": 0.6882789134979248, "in_domain": true}
+{"index": "pq", "query": "Laptop that must have 32 GB RAM for software development", "top_similarity": 0.6907646656036377, "in_domain": true}
+{"index": "pq", "query": "Laptop required to have an SSD and Windows operating system", "top_similarity": 0.6602882146835327, "in_domain": true}
+{"index": "pq", "query": "Only lightweight laptops under 1.8 kg for travel", "top_similarity": 0.6791224479675293, "in_domain": true}
+{"index": "pq", "query": "Laptop with at least 1 TB storage for media files", "top_similarity": 0.6275755167007446, "in_domain": true}
+{"index": "pq", "query": "Laptop with at least 16 GB RAM and a comfortable keyboard", "top_similarity": 0.7086005806922913, "in_domain": true}
+{"index": "pq", "query": "Portable laptop under 1200 USD with a good display", "top_similarity": 0.6633293628692627, "in_domain": true}
+{"index": "pq", "query": "Gaming laptop with RTX 4060 and 16 GB RAM", "top_similarity": 0.7545669078826904, "in_domain": true}
+{"index": "pq", "query": "Laptop with GTX graphics and at least 512 GB storage", "top_similarity": 0.6919347643852234, "in_domain": true}
+{"index": "pq", "query": "Business laptop under 1500 USD that is not Dell", "top_similarity": 0.6873335838317871, "in_domain": true}
+{"index": "pq", "query": "Linux laptop for programming with at least 16 GB RAM", "top_similarity": 0.6752479076385498, "in_domain": true}
+{"index": "pq", "query": "Laptop for office and video calls with long battery life", "top_similarity": 0.6732732653617859, "in_domain": true}
+{"index": "pq", "query": "Laptop under 700 USD for basic student work", "top_similarity": 0.6404987573623657, "in_domain": true}
+{"index": "pq", "query": "Laptop between 1000 and 1800 USD for creative professionals", "top_similarity": 0.6418482065200806, "in_domain": true}
+{"index": "pq", "query": "Laptop with a 15 inch or larger display for productivity", "top_similarity": 0.7047969102859497, "in_domain": true}
+{"index": "pq", "query": "Laptop below 2 kg with at least 8 GB RAM", "top_similarity": 0.6801246404647827, "in_domain": true}
+{"index": "pq", "query": "Gaming laptop with a high refresh rate display and dedicated GPU", "top_similarity": 0.7156598567962646, "in_domain": true}
+{"index": "pq", "query": "Laptop for machine learning experiments with NVIDIA graphics", "top_similarity": 0.6848526000976562, "in_domain": true}
+{"index": "pq", "query": "Quiet lightweight business laptop with an SSD", "top_similarity": 0.7545160055160522, "in_domain": true}
+{"index": "pq", "query": "Laptop with strong battery life and a comfortable keyboard for university", "top_similarity": 0.712527871131897, "in_domain": true}
+{"index": "pq", "query": "Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage", "top_similarity": 0.6800864338874817, "in_domain": true}
+{"index": "pq", "query": "How do I bake a chocolate cake?", "top_similarity": 0.4473112225532532, "in_domain": false}
+{"index": "pq", "query": "What will the weather be tomorrow?", "top_similarity": 0.5463612675666809, "in_domain": false}
+{"index": "pq", "query": "Recommend a smartphone with a good camera", "top_similarity": 0.5606720447540283, "in_domain": false}
+{"index": "pq", "query": "Explain the rules of association football", "top_similarity": 0.4752536416053772, "in_domain": false}
+{"index": "pq", "query": "Write a poem about the ocean", "top_similarity": 0.4825819730758667, "in_domain": false}
+{"index": "ivf_pq", "query": "Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics", "top_similarity": 0.7086373567581177, "in_domain": true}
+{"index": "ivf_pq", "query": "Affordable gaming laptop with a dedicated GPU and 512 GB SSD", "top_similarity": 0.7150710821151733, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop for university programming with 16 GB RAM", "top_similarity": 0.6753658652305603, "in_domain": true}
+{"index": "ivf_pq", "query": "Lightweight student laptop under 2 kg with long battery life", "top_similarity": 0.7098552584648132, "in_domain": true}
+{"index": "ivf_pq", "query": "Business laptop with a comfortable keyboard under 1200 USD", "top_similarity": 0.6885614395141602, "in_domain": true}
+{"index": "ivf_pq", "query": "Portable professional laptop with a bright display and good battery life", "top_similarity": 0.77167147397995, "in_domain": true}
+{"index": "ivf_pq", "query": "Programming laptop with a powerful CPU and at least 512 GB storage", "top_similarity": 0.6689959764480591, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM", "top_similarity": 0.6827450394630432, "in_domain": true}
+{"index": "ivf_pq", "query": "Creative work laptop with a high resolution display and fast SSD", "top_similarity": 0.7517344355583191, "in_domain": true}
+{"index": "ivf_pq", "query": "Workstation laptop with RTX graphics and at least 32 GB RAM", "top_similarity": 0.7456740140914917, "in_domain": true}
+{"index": "ivf_pq", "query": "Windows laptop under 1000 USD with 16 GB RAM", "top_similarity": 0.6769218444824219, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop between 800 and 1400 USD with SSD storage", "top_similarity": 0.7007043957710266, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop below 900 USD for office work", "top_similarity": 0.6857248544692993, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop above 1500 USD with a powerful processor", "top_similarity": 0.7088373303413391, "in_domain": true}
+{"index": "ivf_pq", "query": "Dell laptop for business use with a comfortable keyboard", "top_similarity": 0.7645784020423889, "in_domain": true}
+{"index": "ivf_pq", "query": "Lenovo laptop for programming with at least 16 GB RAM", "top_similarity": 0.7381327152252197, "in_domain": true}
+{"index": "ivf_pq", "query": "HP laptop for students with a lightweight design", "top_similarity": 0.7347837686538696, "in_domain": true}
+{"index": "ivf_pq", "query": "Asus gaming laptop with RTX graphics under 2000 USD", "top_similarity": 0.7172896265983582, "in_domain": true}
+{"index": "ivf_pq", "query": "Acer laptop with at least 512 GB storage and Windows", "top_similarity": 0.768920361995697, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop without RTX graphics for quiet office work", "top_similarity": 0.7287095785140991, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop that must have 32 GB RAM for software development", "top_similarity": 0.7089305520057678, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop required to have an SSD and Windows operating system", "top_similarity": 0.6990865468978882, "in_domain": true}
+{"index": "ivf_pq", "query": "Only lightweight laptops under 1.8 kg for travel", "top_similarity": 0.7202345132827759, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with at least 1 TB storage for media files", "top_similarity": 0.6555433869361877, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with at least 16 GB RAM and a comfortable keyboard", "top_similarity": 0.7353069186210632, "in_domain": true}
+{"index": "ivf_pq", "query": "Portable laptop under 1200 USD with a good display", "top_similarity": 0.6734856367111206, "in_domain": true}
+{"index": "ivf_pq", "query": "Gaming laptop with RTX 4060 and 16 GB RAM", "top_similarity": 0.7844611406326294, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with GTX graphics and at least 512 GB storage", "top_similarity": 0.7003822326660156, "in_domain": true}
+{"index": "ivf_pq", "query": "Business laptop under 1500 USD that is not Dell", "top_similarity": 0.7017709612846375, "in_domain": true}
+{"index": "ivf_pq", "query": "Linux laptop for programming with at least 16 GB RAM", "top_similarity": 0.6802546381950378, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop for office and video calls with long battery life", "top_similarity": 0.6958205699920654, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop under 700 USD for basic student work", "top_similarity": 0.6675230264663696, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop between 1000 and 1800 USD for creative professionals", "top_similarity": 0.667957067489624, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with a 15 inch or larger display for productivity", "top_similarity": 0.7352117300033569, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop below 2 kg with at least 8 GB RAM", "top_similarity": 0.6900589466094971, "in_domain": true}
+{"index": "ivf_pq", "query": "Gaming laptop with a high refresh rate display and dedicated GPU", "top_similarity": 0.7280735969543457, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop for machine learning experiments with NVIDIA graphics", "top_similarity": 0.679322361946106, "in_domain": true}
+{"index": "ivf_pq", "query": "Quiet lightweight business laptop with an SSD", "top_similarity": 0.7675693035125732, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with strong battery life and a comfortable keyboard for university", "top_similarity": 0.7418942451477051, "in_domain": true}
+{"index": "ivf_pq", "query": "Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage", "top_similarity": 0.701071560382843, "in_domain": true}
+{"index": "ivf_pq", "query": "How do I bake a chocolate cake?", "top_similarity": 0.45252519845962524, "in_domain": false}
+{"index": "ivf_pq", "query": "What will the weather be tomorrow?", "top_similarity": 0.5735686421394348, "in_domain": false}
+{"index": "ivf_pq", "query": "Recommend a smartphone with a good camera", "top_similarity": 0.6055034399032593, "in_domain": false}
+{"index": "ivf_pq", "query": "Explain the rules of association football", "top_similarity": 0.48140010237693787, "in_domain": false}
+{"index": "ivf_pq", "query": "Write a poem about the ocean", "top_similarity": 0.4727059006690979, "in_domain": false}
+{"index": "hnsw", "query": "Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics", "top_similarity": 0.7176636457443237, "in_domain": true}
+{"index": "hnsw", "query": "Affordable gaming laptop with a dedicated GPU and 512 GB SSD", "top_similarity": 0.7349042892456055, "in_domain": true}
+{"index": "hnsw", "query": "Laptop for university programming with 16 GB RAM", "top_similarity": 0.6977510452270508, "in_domain": true}
+{"index": "hnsw", "query": "Lightweight student laptop under 2 kg with long battery life", "top_similarity": 0.7268376350402832, "in_domain": true}
+{"index": "hnsw", "query": "Business laptop with a comfortable keyboard under 1200 USD", "top_similarity": 0.7043119668960571, "in_domain": true}
+{"index": "hnsw", "query": "Portable professional laptop with a bright display and good battery life", "top_similarity": 0.809734582901001, "in_domain": true}
+{"index": "hnsw", "query": "Programming laptop with a powerful CPU and at least 512 GB storage", "top_similarity": 0.6880114078521729, "in_domain": true}
+{"index": "hnsw", "query": "Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM", "top_similarity": 0.7199594974517822, "in_domain": true}
+{"index": "hnsw", "query": "Creative work laptop with a high resolution display and fast SSD", "top_similarity": 0.7055001258850098, "in_domain": true}
+{"index": "hnsw", "query": "Workstation laptop with RTX graphics and at least 32 GB RAM", "top_similarity": 0.7517563104629517, "in_domain": true}
+{"index": "hnsw", "query": "Windows laptop under 1000 USD with 16 GB RAM", "top_similarity": 0.6918156147003174, "in_domain": true}
+{"index": "hnsw", "query": "Laptop between 800 and 1400 USD with SSD storage", "top_similarity": 0.7006227970123291, "in_domain": true}
+{"index": "hnsw", "query": "Laptop below 900 USD for office work", "top_similarity": 0.7156671285629272, "in_domain": true}
+{"index": "hnsw", "query": "Laptop above 1500 USD with a powerful processor", "top_similarity": 0.7355872392654419, "in_domain": true}
+{"index": "hnsw", "query": "Dell laptop for business use with a comfortable keyboard", "top_similarity": 0.7833328247070312, "in_domain": true}
+{"index": "hnsw", "query": "Lenovo laptop for programming with at least 16 GB RAM", "top_similarity": 0.7513648271560669, "in_domain": true}
+{"index": "hnsw", "query": "HP laptop for students with a lightweight design", "top_similarity": 0.7536087036132812, "in_domain": true}
+{"index": "hnsw", "query": "Asus gaming laptop with RTX graphics under 2000 USD", "top_similarity": 0.7359290719032288, "in_domain": true}
+{"index": "hnsw", "query": "Acer laptop with at least 512 GB storage and Windows", "top_similarity": 0.7760838270187378, "in_domain": true}
+{"index": "hnsw", "query": "Laptop without RTX graphics for quiet office work", "top_similarity": 0.7396339178085327, "in_domain": true}
+{"index": "hnsw", "query": "Laptop that must have 32 GB RAM for software development", "top_similarity": 0.7095756530761719, "in_domain": true}
+{"index": "hnsw", "query": "Laptop required to have an SSD and Windows operating system", "top_similarity": 0.7277607917785645, "in_domain": true}
+{"index": "hnsw", "query": "Only lightweight laptops under 1.8 kg for travel", "top_similarity": 0.7421607375144958, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with at least 1 TB storage for media files", "top_similarity": 0.6689083576202393, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with at least 16 GB RAM and a comfortable keyboard", "top_similarity": 0.7449783682823181, "in_domain": true}
+{"index": "hnsw", "query": "Portable laptop under 1200 USD with a good display", "top_similarity": 0.6976780891418457, "in_domain": true}
+{"index": "hnsw", "query": "Gaming laptop with RTX 4060 and 16 GB RAM", "top_similarity": 0.8006876111030579, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with GTX graphics and at least 512 GB storage", "top_similarity": 0.7204927206039429, "in_domain": true}
+{"index": "hnsw", "query": "Business laptop under 1500 USD that is not Dell", "top_similarity": 0.7370028495788574, "in_domain": true}
+{"index": "hnsw", "query": "Linux laptop for programming with at least 16 GB RAM", "top_similarity": 0.6977096796035767, "in_domain": true}
+{"index": "hnsw", "query": "Laptop for office and video calls with long battery life", "top_similarity": 0.7063889503479004, "in_domain": true}
+{"index": "hnsw", "query": "Laptop under 700 USD for basic student work", "top_similarity": 0.6834588050842285, "in_domain": true}
+{"index": "hnsw", "query": "Laptop between 1000 and 1800 USD for creative professionals", "top_similarity": 0.6877312660217285, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with a 15 inch or larger display for productivity", "top_similarity": 0.7539451122283936, "in_domain": true}
+{"index": "hnsw", "query": "Laptop below 2 kg with at least 8 GB RAM", "top_similarity": 0.7176549434661865, "in_domain": true}
+{"index": "hnsw", "query": "Gaming laptop with a high refresh rate display and dedicated GPU", "top_similarity": 0.7504534721374512, "in_domain": true}
+{"index": "hnsw", "query": "Laptop for machine learning experiments with NVIDIA graphics", "top_similarity": 0.701316237449646, "in_domain": true}
+{"index": "hnsw", "query": "Quiet lightweight business laptop with an SSD", "top_similarity": 0.7682636380195618, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with strong battery life and a comfortable keyboard for university", "top_similarity": 0.7611701488494873, "in_domain": true}
+{"index": "hnsw", "query": "Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage", "top_similarity": 0.7172769904136658, "in_domain": true}
+{"index": "hnsw", "query": "How do I bake a chocolate cake?", "top_similarity": 0.4721055328845978, "in_domain": false}
+{"index": "hnsw", "query": "What will the weather be tomorrow?", "top_similarity": 0.6065657138824463, "in_domain": false}
+{"index": "hnsw", "query": "Recommend a smartphone with a good camera", "top_similarity": 0.6207507252693176, "in_domain": false}
+{"index": "hnsw", "query": "Explain the rules of association football", "top_similarity": 0.553276538848877, "in_domain": false}
+{"index": "hnsw", "query": "Write a poem about the ocean", "top_similarity": 0.447020560503006, "in_domain": false}

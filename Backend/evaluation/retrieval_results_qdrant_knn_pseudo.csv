@@ -1,0 +1,201 @@
+index,query,search_mode,retrieval_latency_ms,filter_level,metadata_match_count,outlier,returned_count,precision_at_1,recall_at_1,precision_at_3,recall_at_3,precision_at_5,recall_at_5
+flat,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,semantic,11720.866,1,,False,5,0.0,0.0,0.0,0.0,0.2,0.2
+flat,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,semantic,272.215,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+flat,Laptop for university programming with 16 GB RAM,semantic,267.336,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Lightweight student laptop under 2 kg with long battery life,semantic,300.791,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Business laptop with a comfortable keyboard under 1200 USD,semantic,270.49,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Portable professional laptop with a bright display and good battery life,semantic,273.889,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+flat,Programming laptop with a powerful CPU and at least 512 GB storage,semantic,273.146,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,semantic,268.793,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Creative work laptop with a high resolution display and fast SSD,semantic,267.482,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Workstation laptop with RTX graphics and at least 32 GB RAM,semantic,266.148,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Windows laptop under 1000 USD with 16 GB RAM,semantic,618.812,3,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop between 800 and 1400 USD with SSD storage,semantic,472.364,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop below 900 USD for office work,semantic,439.339,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop above 1500 USD with a powerful processor,semantic,269.351,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Dell laptop for business use with a comfortable keyboard,semantic,263.254,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+flat,Lenovo laptop for programming with at least 16 GB RAM,semantic,262.866,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,HP laptop for students with a lightweight design,semantic,261.239,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+flat,Asus gaming laptop with RTX graphics under 2000 USD,semantic,257.216,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Acer laptop with at least 512 GB storage and Windows,semantic,270.457,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+flat,Laptop without RTX graphics for quiet office work,semantic,267.339,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop that must have 32 GB RAM for software development,semantic,267.137,1,,False,0,0.0,0.0,0.0,0.0,0.0,0.0
+flat,Laptop required to have an SSD and Windows operating system,semantic,273.301,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Only lightweight laptops under 1.8 kg for travel,semantic,273.573,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+flat,Laptop with at least 1 TB storage for media files,semantic,442.221,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+flat,Laptop with at least 16 GB RAM and a comfortable keyboard,semantic,272.756,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Portable laptop under 1200 USD with a good display,semantic,271.269,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+flat,Gaming laptop with RTX 4060 and 16 GB RAM,semantic,267.771,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop with GTX graphics and at least 512 GB storage,semantic,272.579,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Business laptop under 1500 USD that is not Dell,semantic,270.454,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+flat,Linux laptop for programming with at least 16 GB RAM,semantic,475.291,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop for office and video calls with long battery life,semantic,271.699,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+flat,Laptop under 700 USD for basic student work,semantic,439.695,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+flat,Laptop between 1000 and 1800 USD for creative professionals,semantic,449.447,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+flat,Laptop with a 15 inch or larger display for productivity,semantic,267.293,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Laptop below 2 kg with at least 8 GB RAM,semantic,270.938,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Gaming laptop with a high refresh rate display and dedicated GPU,semantic,271.659,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+flat,Laptop for machine learning experiments with NVIDIA graphics,semantic,285.161,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,Quiet lightweight business laptop with an SSD,semantic,259.672,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+flat,Laptop with strong battery life and a comfortable keyboard for university,semantic,264.015,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+flat,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",semantic,274.027,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,semantic,333.168,1,,False,5,0.0,0.0,0.0,0.0,0.2,0.2
+ivf_flat,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,semantic,245.198,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+ivf_flat,Laptop for university programming with 16 GB RAM,semantic,246.96,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Lightweight student laptop under 2 kg with long battery life,semantic,244.365,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Business laptop with a comfortable keyboard under 1200 USD,semantic,240.408,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Portable professional laptop with a bright display and good battery life,semantic,241.96,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Programming laptop with a powerful CPU and at least 512 GB storage,semantic,242.29,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,semantic,252.09,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Creative work laptop with a high resolution display and fast SSD,semantic,254.217,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Workstation laptop with RTX graphics and at least 32 GB RAM,semantic,241.488,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Windows laptop under 1000 USD with 16 GB RAM,semantic,599.93,3,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Laptop between 800 and 1400 USD with SSD storage,semantic,604.75,3,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+ivf_flat,Laptop below 900 USD for office work,semantic,243.431,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_flat,Laptop above 1500 USD with a powerful processor,semantic,249.509,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_flat,Dell laptop for business use with a comfortable keyboard,semantic,242.482,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+ivf_flat,Lenovo laptop for programming with at least 16 GB RAM,semantic,245.693,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,HP laptop for students with a lightweight design,semantic,244.896,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+ivf_flat,Asus gaming laptop with RTX graphics under 2000 USD,semantic,252.832,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Acer laptop with at least 512 GB storage and Windows,semantic,253.116,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_flat,Laptop without RTX graphics for quiet office work,semantic,239.504,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Laptop that must have 32 GB RAM for software development,semantic,241.794,1,,False,0,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_flat,Laptop required to have an SSD and Windows operating system,semantic,246.514,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Only lightweight laptops under 1.8 kg for travel,semantic,283.592,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Laptop with at least 1 TB storage for media files,semantic,418.005,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_flat,Laptop with at least 16 GB RAM and a comfortable keyboard,semantic,241.084,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Portable laptop under 1200 USD with a good display,semantic,243.123,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_flat,Gaming laptop with RTX 4060 and 16 GB RAM,semantic,247.997,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Laptop with GTX graphics and at least 512 GB storage,semantic,422.643,2,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_flat,Business laptop under 1500 USD that is not Dell,semantic,248.967,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Linux laptop for programming with at least 16 GB RAM,semantic,429.773,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Laptop for office and video calls with long battery life,semantic,246.003,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_flat,Laptop under 700 USD for basic student work,semantic,423.547,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_flat,Laptop between 1000 and 1800 USD for creative professionals,semantic,419.489,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_flat,Laptop with a 15 inch or larger display for productivity,semantic,250.814,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Laptop below 2 kg with at least 8 GB RAM,semantic,247.983,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Gaming laptop with a high refresh rate display and dedicated GPU,semantic,245.272,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+ivf_flat,Laptop for machine learning experiments with NVIDIA graphics,semantic,245.401,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,Quiet lightweight business laptop with an SSD,semantic,243.78,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_flat,Laptop with strong battery life and a comfortable keyboard for university,semantic,250.764,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+ivf_flat,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",semantic,250.52,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+pq,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,semantic,683.889,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,semantic,249.253,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop for university programming with 16 GB RAM,semantic,241.248,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+pq,Lightweight student laptop under 2 kg with long battery life,semantic,242.406,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Business laptop with a comfortable keyboard under 1200 USD,semantic,254.812,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.4,0.4
+pq,Portable professional laptop with a bright display and good battery life,semantic,246.672,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+pq,Programming laptop with a powerful CPU and at least 512 GB storage,semantic,265.228,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,semantic,429.799,2,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Creative work laptop with a high resolution display and fast SSD,semantic,244.514,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+pq,Workstation laptop with RTX graphics and at least 32 GB RAM,semantic,235.641,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.6,0.6
+pq,Windows laptop under 1000 USD with 16 GB RAM,semantic,231.275,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop between 800 and 1400 USD with SSD storage,semantic,407.928,2,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+pq,Laptop below 900 USD for office work,semantic,234.548,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+pq,Laptop above 1500 USD with a powerful processor,semantic,236.253,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+pq,Dell laptop for business use with a comfortable keyboard,semantic,235.233,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Lenovo laptop for programming with at least 16 GB RAM,semantic,568.086,3,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,HP laptop for students with a lightweight design,semantic,232.021,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+pq,Asus gaming laptop with RTX graphics under 2000 USD,semantic,244.234,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.2,0.2
+pq,Acer laptop with at least 512 GB storage and Windows,semantic,250.997,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+pq,Laptop without RTX graphics for quiet office work,semantic,239.553,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+pq,Laptop that must have 32 GB RAM for software development,semantic,232.217,1,,False,1,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop required to have an SSD and Windows operating system,semantic,232.572,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+pq,Only lightweight laptops under 1.8 kg for travel,semantic,236.389,1,,False,5,0.0,0.0,0.6666666666666666,0.4,0.6,0.6
+pq,Laptop with at least 1 TB storage for media files,semantic,235.479,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop with at least 16 GB RAM and a comfortable keyboard,semantic,236.884,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+pq,Portable laptop under 1200 USD with a good display,semantic,237.351,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+pq,Gaming laptop with RTX 4060 and 16 GB RAM,semantic,240.741,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+pq,Laptop with GTX graphics and at least 512 GB storage,semantic,232.85,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+pq,Business laptop under 1500 USD that is not Dell,semantic,241.714,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.2,0.2
+pq,Linux laptop for programming with at least 16 GB RAM,semantic,602.533,3,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop for office and video calls with long battery life,semantic,243.012,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop under 700 USD for basic student work,semantic,415.336,2,,False,5,1.0,1.0,0.3333333333333333,1.0,0.2,1.0
+pq,Laptop between 1000 and 1800 USD for creative professionals,semantic,424.46,2,,False,3,1.0,1.0,0.3333333333333333,1.0,0.3333333333333333,1.0
+pq,Laptop with a 15 inch or larger display for productivity,semantic,247.863,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+pq,Laptop below 2 kg with at least 8 GB RAM,semantic,235.691,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+pq,Gaming laptop with a high refresh rate display and dedicated GPU,semantic,240.316,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+pq,Laptop for machine learning experiments with NVIDIA graphics,semantic,240.738,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Quiet lightweight business laptop with an SSD,semantic,241.902,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+pq,Laptop with strong battery life and a comfortable keyboard for university,semantic,962.194,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+pq,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",semantic,245.209,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+ivf_pq,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,semantic,277.3,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,semantic,248.485,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Laptop for university programming with 16 GB RAM,semantic,260.068,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Lightweight student laptop under 2 kg with long battery life,semantic,243.057,1,,False,5,0.0,0.0,0.0,0.0,0.2,0.2
+ivf_pq,Business laptop with a comfortable keyboard under 1200 USD,semantic,241.223,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+ivf_pq,Portable professional laptop with a bright display and good battery life,semantic,246.537,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Programming laptop with a powerful CPU and at least 512 GB storage,semantic,244.109,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,semantic,248.13,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_pq,Creative work laptop with a high resolution display and fast SSD,semantic,248.198,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Workstation laptop with RTX graphics and at least 32 GB RAM,semantic,246.771,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_pq,Windows laptop under 1000 USD with 16 GB RAM,semantic,241.816,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Laptop between 800 and 1400 USD with SSD storage,semantic,415.296,2,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Laptop below 900 USD for office work,semantic,243.582,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Laptop above 1500 USD with a powerful processor,semantic,239.914,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Dell laptop for business use with a comfortable keyboard,semantic,241.6,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+ivf_pq,Lenovo laptop for programming with at least 16 GB RAM,semantic,599.321,3,,False,5,0.0,0.0,0.0,0.0,0.2,0.2
+ivf_pq,HP laptop for students with a lightweight design,semantic,259.131,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+ivf_pq,Asus gaming laptop with RTX graphics under 2000 USD,semantic,245.703,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.6,0.6
+ivf_pq,Acer laptop with at least 512 GB storage and Windows,semantic,244.651,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_pq,Laptop without RTX graphics for quiet office work,semantic,245.677,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Laptop that must have 32 GB RAM for software development,semantic,240.269,1,,False,1,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Laptop required to have an SSD and Windows operating system,semantic,247.178,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Only lightweight laptops under 1.8 kg for travel,semantic,249.109,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_pq,Laptop with at least 1 TB storage for media files,semantic,411.519,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_pq,Laptop with at least 16 GB RAM and a comfortable keyboard,semantic,246.816,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_pq,Portable laptop under 1200 USD with a good display,semantic,241.062,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_pq,Gaming laptop with RTX 4060 and 16 GB RAM,semantic,241.646,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+ivf_pq,Laptop with GTX graphics and at least 512 GB storage,semantic,246.373,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+ivf_pq,Business laptop under 1500 USD that is not Dell,semantic,243.485,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Linux laptop for programming with at least 16 GB RAM,semantic,600.918,3,,False,5,0.0,0.0,0.3333333333333333,0.2,0.4,0.4
+ivf_pq,Laptop for office and video calls with long battery life,semantic,252.038,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Laptop under 700 USD for basic student work,semantic,413.155,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_pq,Laptop between 1000 and 1800 USD for creative professionals,semantic,422.313,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+ivf_pq,Laptop with a 15 inch or larger display for productivity,semantic,244.562,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+ivf_pq,Laptop below 2 kg with at least 8 GB RAM,semantic,247.893,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,Gaming laptop with a high refresh rate display and dedicated GPU,semantic,262.67,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.6,0.6
+ivf_pq,Laptop for machine learning experiments with NVIDIA graphics,semantic,246.903,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Quiet lightweight business laptop with an SSD,semantic,235.519,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+ivf_pq,Laptop with strong battery life and a comfortable keyboard for university,semantic,252.109,1,,False,5,1.0,0.2,0.3333333333333333,0.2,0.2,0.2
+ivf_pq,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",semantic,244.042,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.6,0.6
+hnsw,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,semantic,2001.609,1,,False,5,0.0,0.0,0.0,0.0,0.2,0.2
+hnsw,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,semantic,244.752,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+hnsw,Laptop for university programming with 16 GB RAM,semantic,243.871,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Lightweight student laptop under 2 kg with long battery life,semantic,260.816,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Business laptop with a comfortable keyboard under 1200 USD,semantic,249.058,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Portable professional laptop with a bright display and good battery life,semantic,244.095,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Programming laptop with a powerful CPU and at least 512 GB storage,semantic,245.008,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+hnsw,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,semantic,255.645,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Creative work laptop with a high resolution display and fast SSD,semantic,245.591,1,,False,5,0.0,0.0,0.0,0.0,0.0,0.0
+hnsw,Workstation laptop with RTX graphics and at least 32 GB RAM,semantic,258.094,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Windows laptop under 1000 USD with 16 GB RAM,semantic,595.805,3,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop between 800 and 1400 USD with SSD storage,semantic,422.451,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop below 900 USD for office work,semantic,422.979,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop above 1500 USD with a powerful processor,semantic,253.712,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+hnsw,Dell laptop for business use with a comfortable keyboard,semantic,242.302,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+hnsw,Lenovo laptop for programming with at least 16 GB RAM,semantic,244.975,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,HP laptop for students with a lightweight design,semantic,245.089,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.8,0.8
+hnsw,Asus gaming laptop with RTX graphics under 2000 USD,semantic,249.853,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Acer laptop with at least 512 GB storage and Windows,semantic,242.473,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+hnsw,Laptop without RTX graphics for quiet office work,semantic,244.367,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop that must have 32 GB RAM for software development,semantic,243.811,1,,False,0,0.0,0.0,0.0,0.0,0.0,0.0
+hnsw,Laptop required to have an SSD and Windows operating system,semantic,252.563,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Only lightweight laptops under 1.8 kg for travel,semantic,246.391,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop with at least 1 TB storage for media files,semantic,421.255,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+hnsw,Laptop with at least 16 GB RAM and a comfortable keyboard,semantic,245.144,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Portable laptop under 1200 USD with a good display,semantic,232.944,1,,False,5,1.0,0.2,1.0,0.6,0.6,0.6
+hnsw,Gaming laptop with RTX 4060 and 16 GB RAM,semantic,230.717,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop with GTX graphics and at least 512 GB storage,semantic,238.552,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+hnsw,Business laptop under 1500 USD that is not Dell,semantic,225.353,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+hnsw,Linux laptop for programming with at least 16 GB RAM,semantic,401.901,2,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop for office and video calls with long battery life,semantic,237.581,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop under 700 USD for basic student work,semantic,405.392,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+hnsw,Laptop between 1000 and 1800 USD for creative professionals,semantic,406.598,2,,False,1,1.0,1.0,1.0,1.0,1.0,1.0
+hnsw,Laptop with a 15 inch or larger display for productivity,semantic,233.216,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Laptop below 2 kg with at least 8 GB RAM,semantic,228.664,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,Gaming laptop with a high refresh rate display and dedicated GPU,semantic,240.183,1,,False,5,1.0,0.2,0.6666666666666666,0.4,0.4,0.4
+hnsw,Laptop for machine learning experiments with NVIDIA graphics,semantic,231.919,1,,False,5,1.0,0.2,1.0,0.6,0.8,0.8
+hnsw,Quiet lightweight business laptop with an SSD,semantic,231.148,1,,False,5,0.0,0.0,0.3333333333333333,0.2,0.6,0.6
+hnsw,Laptop with strong battery life and a comfortable keyboard for university,semantic,246.18,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0
+hnsw,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",semantic,250.099,1,,False,5,1.0,0.2,1.0,0.6,1.0,1.0

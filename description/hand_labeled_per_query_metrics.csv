@@ -1,0 +1,201 @@
+query_number,index,query,precision_at_1,precision_at_3,precision_at_5,recall_at_5,ndcg_at_5,mrr,average_precision_at_5,success_at_5,candidate_recall_at_20,latency_ms,retrieval_latency_ms,returned_laptop_ids
+1,flat,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,154.507,148.381,414122 415533 411485 415062 414494
+2,flat,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,168.171,162.058,411439 418259 411197 418832 415779
+3,flat,Laptop for university programming with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,119.048,113.475,355798 322105 325229 417862 415012
+4,flat,Lightweight student laptop under 2 kg with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,123.265,118.06,337025 339011 322593 411493 351220
+5,flat,Business laptop with a comfortable keyboard under 1200 USD,0.0,0.0,0.2,0.06666666666666667,0.131205,0.2,0.04,True,0.06666666666666667,119.88,114.738,338015 355150 335960 352384 354911
+6,flat,Portable professional laptop with a bright display and good battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,87.828,83.716,308509 416731 417145 343246 418042
+7,flat,Programming laptop with a powerful CPU and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,133.401,127.416,330842 412221 326576 411761 415173
+8,flat,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,137.042,131.826,329688 413846 338600 418428 417145
+9,flat,Creative work laptop with a high resolution display and fast SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,150.515,145.601,314867 416065 418413 415195 312868
+10,flat,Workstation laptop with RTX graphics and at least 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,119.349,113.655,413846 318572 338600 341406 312868
+11,flat,Windows laptop under 1000 USD with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,71.324,66.576,415209 295738 412516 323446 326523
+12,flat,Laptop between 800 and 1400 USD with SSD storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,108.826,103.74,418178 415799 418413 418821 415197
+13,flat,Laptop below 900 USD for office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,71.654,66.599,345841 417110 351422 296244 308518
+14,flat,Laptop above 1500 USD with a powerful processor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,100.011,95.227,323093 331646 317510 303746 322105
+15,flat,Dell laptop for business use with a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,130.159,125.447,338015 316974 413742 311303 418821
+16,flat,Lenovo laptop for programming with at least 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,476.453,470.86,415197 415842 418344 359424 412583
+17,flat,HP laptop for students with a lightweight design,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,122.435,117.22,330842 358572 319160 412221 357962
+18,flat,Asus gaming laptop with RTX graphics under 2000 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,106.753,102.466,415515 411764 418474 415906 415847
+19,flat,Acer laptop with at least 512 GB storage and Windows,0.0,0.3333333333333333,0.2,0.06666666666666667,0.213986,0.5,0.1,True,0.06666666666666667,121.915,116.964,314867 340266 413407 302621 345203
+20,flat,Laptop without RTX graphics for quiet office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,108.932,104.345,351210 351422 313280 358970 309415
+21,flat,Laptop that must have 32 GB RAM for software development,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,158.33,152.466,354238 350048 413550 414546 417811
+22,flat,Laptop required to have an SSD and Windows operating system,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,103.489,98.45,417862 412516 418888 415620 317035
+23,flat,Only lightweight laptops under 1.8 kg for travel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,99.345,94.281,339011 321545 337025 322593 411214
+24,flat,Laptop with at least 1 TB storage for media files,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,90.649,85.847,347057 349740 413056 324118 316683
+25,flat,Laptop with at least 16 GB RAM and a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,85.147,79.846,358790 350249 352487 327510 338015
+26,flat,Portable laptop under 1200 USD with a good display,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,85.346,80.347,418888 352639 415124 412516 352384
+27,flat,Gaming laptop with RTX 4060 and 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,146.052,141.522,340267 336176 412130 412129 414474
+28,flat,Laptop with GTX graphics and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,106.341,101.105,412053 416065 418821 418973 418259
+29,flat,Business laptop under 1500 USD that is not Dell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,106.052,100.998,331228 411797 313972 358970 416976
+30,flat,Linux laptop for programming with at least 16 GB RAM,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,30.235,26.046,306211
+31,flat,Laptop for office and video calls with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,46.756,42.142,412221 335960 412304 337025 412153
+32,flat,Laptop under 700 USD for basic student work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,73.839,68.712,358572 418570 412132 411867 411493
+33,flat,Laptop between 1000 and 1800 USD for creative professionals,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,80.686,75.796,413846 418033 418378 349127 320680
+34,flat,Laptop with a 15 inch or larger display for productivity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,141.439,137.0,308873 317205 328957 418772 417270
+35,flat,Laptop below 2 kg with at least 8 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,107.781,103.069,352248 417314 322593 339011 337025
+36,flat,Gaming laptop with a high refresh rate display and dedicated GPU,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,63.796,59.61,412884 415857 411215 417360 416046
+37,flat,Laptop for machine learning experiments with NVIDIA graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,59.788,55.596,308221 308518 415012 327328 416891
+38,flat,Quiet lightweight business laptop with an SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,116.972,112.417,415799 417659 414033 418053 415217
+39,flat,Laptop with strong battery life and a comfortable keyboard for university,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,37.862,33.557,348491 354911 338015 417215 418042
+40,flat,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,120.139,115.723,413846 338600 324106 313301 336266
+1,ivf_flat,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,122.85,118.341,414122 415533 411485 415062 414494
+2,ivf_flat,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,125.923,121.243,411439 418259 411197 418832 415779
+3,ivf_flat,Laptop for university programming with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,105.04,100.437,355798 322105 325229 417862 415012
+4,ivf_flat,Lightweight student laptop under 2 kg with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,121.776,116.72,337025 339011 322593 411493 351220
+5,ivf_flat,Business laptop with a comfortable keyboard under 1200 USD,0.0,0.0,0.2,0.06666666666666667,0.131205,0.2,0.04,True,0.06666666666666667,108.843,103.998,338015 355150 335960 352384 354911
+6,ivf_flat,Portable professional laptop with a bright display and good battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,77.2,72.997,308509 416731 417145 343246 418042
+7,ivf_flat,Programming laptop with a powerful CPU and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,114.378,109.271,330842 412221 326576 411761 415173
+8,ivf_flat,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,139.447,134.517,329688 413846 338600 418428 417145
+9,ivf_flat,Creative work laptop with a high resolution display and fast SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,158.902,153.369,314867 416065 418413 415195 312868
+10,ivf_flat,Workstation laptop with RTX graphics and at least 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,124.19,118.41,413846 318572 338600 341406 312868
+11,ivf_flat,Windows laptop under 1000 USD with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,73.447,67.957,415209 295738 412516 323446 326523
+12,ivf_flat,Laptop between 800 and 1400 USD with SSD storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,113.577,108.267,418178 415799 418413 418821 415197
+13,ivf_flat,Laptop below 900 USD for office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,69.412,64.389,345841 417110 351422 296244 308518
+14,ivf_flat,Laptop above 1500 USD with a powerful processor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,104.022,98.198,323093 331646 317510 303746 322105
+15,ivf_flat,Dell laptop for business use with a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,147.253,140.07,338015 316974 413742 311303 418821
+16,ivf_flat,Lenovo laptop for programming with at least 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,148.893,142.764,415197 415842 418344 359424 412583
+17,ivf_flat,HP laptop for students with a lightweight design,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,418.832,413.191,330842 358572 319160 412221 357962
+18,ivf_flat,Asus gaming laptop with RTX graphics under 2000 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,112.712,107.721,415515 411764 418474 415906 415847
+19,ivf_flat,Acer laptop with at least 512 GB storage and Windows,0.0,0.3333333333333333,0.2,0.06666666666666667,0.213986,0.5,0.1,True,0.06666666666666667,118.291,113.238,314867 340266 413407 302621 345203
+20,ivf_flat,Laptop without RTX graphics for quiet office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,109.564,104.198,351210 351422 313280 358970 309415
+21,ivf_flat,Laptop that must have 32 GB RAM for software development,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,183.625,176.239,354238 350048 413550 414546 417811
+22,ivf_flat,Laptop required to have an SSD and Windows operating system,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,132.008,125.005,417862 412516 418888 415620 317035
+23,ivf_flat,Only lightweight laptops under 1.8 kg for travel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,117.484,110.467,339011 321545 337025 322593 411214
+24,ivf_flat,Laptop with at least 1 TB storage for media files,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,103.4,95.497,347057 349740 413056 324118 316683
+25,ivf_flat,Laptop with at least 16 GB RAM and a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,108.299,101.623,358790 350249 352487 327510 338015
+26,ivf_flat,Portable laptop under 1200 USD with a good display,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,110.953,101.552,418888 352639 415124 412516 352384
+27,ivf_flat,Gaming laptop with RTX 4060 and 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,166.158,160.38,340267 336176 412130 412129 414474
+28,ivf_flat,Laptop with GTX graphics and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,102.332,94.364,412053 416065 418821 418973 418259
+29,ivf_flat,Business laptop under 1500 USD that is not Dell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,128.558,120.996,331228 411797 313972 358970 416976
+30,ivf_flat,Linux laptop for programming with at least 16 GB RAM,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,32.276,26.416,306211
+31,ivf_flat,Laptop for office and video calls with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,53.397,46.93,412221 335960 412304 337025 412153
+32,ivf_flat,Laptop under 700 USD for basic student work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,114.152,107.164,358572 418570 412132 411867 411493
+33,ivf_flat,Laptop between 1000 and 1800 USD for creative professionals,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,113.958,106.978,413846 418033 418378 349127 320680
+34,ivf_flat,Laptop with a 15 inch or larger display for productivity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,164.483,158.351,308873 317205 328957 418772 417270
+35,ivf_flat,Laptop below 2 kg with at least 8 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,118.816,113.363,352248 417314 322593 339011 337025
+36,ivf_flat,Gaming laptop with a high refresh rate display and dedicated GPU,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,60.789,56.01,412884 415857 411215 417360 416046
+37,ivf_flat,Laptop for machine learning experiments with NVIDIA graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,64.522,60.159,308221 308518 415012 327328 416891
+38,ivf_flat,Quiet lightweight business laptop with an SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,118.562,113.578,415799 417659 414033 418053 415217
+39,ivf_flat,Laptop with strong battery life and a comfortable keyboard for university,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,44.332,38.074,348491 354911 338015 417215 418042
+40,ivf_flat,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,153.162,145.901,413846 338600 324106 313301 336266
+1,pq,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,150.356,144.791,414122 411485 415533 415062 413801
+2,pq,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,171.369,165.405,412935 413091 412884 415779 415857
+3,pq,Laptop for university programming with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,136.898,130.701,355798 415012 331105 295738 325229
+4,pq,Lightweight student laptop under 2 kg with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,157.962,150.685,337025 339011 322593 411493 351220
+5,pq,Business laptop with a comfortable keyboard under 1200 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,167.043,160.899,338015 355150 352384 335960 416059
+6,pq,Portable professional laptop with a bright display and good battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,98.029,93.125,416731 418042 417215 412297 341825
+7,pq,Programming laptop with a powerful CPU and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,143.273,138.159,330842 318764 412221 411761 412132
+8,pq,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,138.83,131.488,329688 335712 413846 337657 324106
+9,pq,Creative work laptop with a high resolution display and fast SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,191.045,182.648,327510 314867 415195 318572 416948
+10,pq,Workstation laptop with RTX graphics and at least 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,147.229,139.84,318572 328280 413846 358946 338600
+11,pq,Windows laptop under 1000 USD with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,92.094,83.14,412563 412516 415209 295738 359846
+12,pq,Laptop between 800 and 1400 USD with SSD storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,169.915,162.67,418178 418413 415799 418821 411495
+13,pq,Laptop below 900 USD for office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,121.242,113.822,417110 345841 416182 416208 419241
+14,pq,Laptop above 1500 USD with a powerful processor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,116.044,106.654,323093 331646 303746 352402 305466
+15,pq,Dell laptop for business use with a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,136.163,129.789,338015 413742 316974 352277 313280
+16,pq,Lenovo laptop for programming with at least 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,157.777,150.074,417881 418698 412583 415197 418344
+17,pq,HP laptop for students with a lightweight design,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,655.428,647.094,358572 412221 419139 357962 319977
+18,pq,Asus gaming laptop with RTX graphics under 2000 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,117.116,110.79,415515 411764 418474 413850 415906
+19,pq,Acer laptop with at least 512 GB storage and Windows,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,130.902,123.572,340266 314867 334178 418564 332383
+20,pq,Laptop without RTX graphics for quiet office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,131.638,125.28,341825 351210 313280 309415 415731
+21,pq,Laptop that must have 32 GB RAM for software development,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,172.1,165.536,355798 318764 318572 417811 414546
+22,pq,Laptop required to have an SSD and Windows operating system,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,140.462,132.483,352402
+23,pq,Only lightweight laptops under 1.8 kg for travel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,142.825,136.174,345523 339011 334474 342278 322593
+24,pq,Laptop with at least 1 TB storage for media files,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,126.816,119.744,316683 347057 413472 411797 411824
+25,pq,Laptop with at least 16 GB RAM and a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,118.822,111.442,350249 327510 352487 411761 411788
+26,pq,Portable laptop under 1200 USD with a good display,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,112.796,101.364,415124 352639 352384 413832 335438
+27,pq,Gaming laptop with RTX 4060 and 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,172.523,164.115,336176 412129 412130 340267 414376
+28,pq,Laptop with GTX graphics and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,111.366,104.959,416065 418821 418973 418259 411197
+29,pq,Business laptop under 1500 USD that is not Dell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,126.344,120.865,331228 411797 313972 352116 416976
+30,pq,Linux laptop for programming with at least 16 GB RAM,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,46.106,41.467,306211 328103
+31,pq,Laptop for office and video calls with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,56.895,51.87,412221 335960 412304 418042 417215
+32,pq,Laptop under 700 USD for basic student work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,76.654,70.918,358572 412132 415166 418570 411493
+33,pq,Laptop between 1000 and 1800 USD for creative professionals,1.0,0.6666666666666666,0.4,0.13333333333333333,0.553146,1.0,0.4,True,0.13333333333333333,93.969,88.578,413846 418402 418033 412597 349127
+34,pq,Laptop with a 15 inch or larger display for productivity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,163.396,157.127,317205 418772 418691 418683 417694
+35,pq,Laptop below 2 kg with at least 8 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,98.958,93.184,342278 339011 322105 359709 352248
+36,pq,Gaming laptop with a high refresh rate display and dedicated GPU,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,50.014,44.899,412884 416046 416001 415876 415857
+37,pq,Laptop for machine learning experiments with NVIDIA graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,69.369,64.119,308221 415012 308518 417626 417369
+38,pq,Quiet lightweight business laptop with an SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,193.148,185.774,415799 413870 413814 411410 413550
+39,pq,Laptop with strong battery life and a comfortable keyboard for university,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,43.504,36.155,348491 338015 341825 418042 417215
+40,pq,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,174.751,168.31,416393 333558 413846 313301 324106
+1,ivf_pq,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,156.615,150.778,414122 411485 415062 415533 417979
+2,ivf_pq,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,171.446,165.471,411439 418259 411197 309627 418832
+3,ivf_pq,Laptop for university programming with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,147.535,141.747,359458 322105 325229 355798 417862
+4,ivf_pq,Lightweight student laptop under 2 kg with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,160.725,154.549,337025 339011 322593 334474 411493
+5,ivf_pq,Business laptop with a comfortable keyboard under 1200 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,154.525,147.391,338015 352384 335960 416059 412304
+6,ivf_pq,Portable professional laptop with a bright display and good battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,87.403,81.004,341825 416731 328963 418042 417215
+7,ivf_pq,Programming laptop with a powerful CPU and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,204.293,195.896,327602 330842 416183 330681 416208
+8,ivf_pq,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,166.686,156.822,329688 413846 314422 338600 318572
+9,ivf_pq,Creative work laptop with a high resolution display and fast SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,196.817,189.969,313972 318572 327510 360222 331569
+10,ivf_pq,Workstation laptop with RTX graphics and at least 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,127.617,120.529,359424 318572 342889 343069 335068
+11,ivf_pq,Windows laptop under 1000 USD with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,105.295,99.603,418330 412563 412516 415209 295738
+12,ivf_pq,Laptop between 800 and 1400 USD with SSD storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,128.373,122.344,418178 415799 316057 415197 418413
+13,ivf_pq,Laptop below 900 USD for office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,83.059,76.128,345841 417110 296244 351422 416208
+14,ivf_pq,Laptop above 1500 USD with a powerful processor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,106.89,99.501,309812 331646 418428 352402 303746
+15,ivf_pq,Dell laptop for business use with a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,149.254,142.061,338015 352277 316974 413742 415730
+16,ivf_pq,Lenovo laptop for programming with at least 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,155.386,149.232,415197 359424 354238 415936 416860
+17,ivf_pq,HP laptop for students with a lightweight design,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,144.982,138.233,358572 330842 357962 307211 318385
+18,ivf_pq,Asus gaming laptop with RTX graphics under 2000 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,105.767,99.506,415515 411764 418474 415906 417977
+19,ivf_pq,Acer laptop with at least 512 GB storage and Windows,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,170.346,162.761,340266 334178 345203 314867 413407
+20,ivf_pq,Laptop without RTX graphics for quiet office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,180.139,170.52,351210 313280 413589 358970 309415
+21,ivf_pq,Laptop that must have 32 GB RAM for software development,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,781.285,774.816,359424 354238 318572 314990 337543
+22,ivf_pq,Laptop required to have an SSD and Windows operating system,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,137.843,132.324,318587
+23,ivf_pq,Only lightweight laptops under 1.8 kg for travel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,125.822,119.961,321545 339011 411214 412074 324118
+24,ivf_pq,Laptop with at least 1 TB storage for media files,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,107.736,102.441,324118 349740 413472 419100 347057
+25,ivf_pq,Laptop with at least 16 GB RAM and a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,98.008,92.232,411761 411788 412132 415166 415173
+26,ivf_pq,Portable laptop under 1200 USD with a good display,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,97.153,90.852,352384 352639 415124 318289 360573
+27,ivf_pq,Gaming laptop with RTX 4060 and 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,160.731,155.49,340267 336176 340177 337128 340316
+28,ivf_pq,Laptop with GTX graphics and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,97.727,92.217,413270 418259 411197 416065 418821
+29,ivf_pq,Business laptop under 1500 USD that is not Dell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,146.793,140.329,331228 313972 358970 411797 316057
+30,ivf_pq,Linux laptop for programming with at least 16 GB RAM,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,38.093,32.533,306211
+31,ivf_pq,Laptop for office and video calls with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,50.135,44.978,412221 417215 418042 412297 335960
+32,ivf_pq,Laptop under 700 USD for basic student work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,84.222,78.645,358572 412132 415166 411867 348222
+33,ivf_pq,Laptop between 1000 and 1800 USD for creative professionals,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,88.005,81.539,413846 320680 418033 349127 418378
+34,ivf_pq,Laptop with a 15 inch or larger display for productivity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,161.073,155.74,328957 415173 415166 412132 411788
+35,ivf_pq,Laptop below 2 kg with at least 8 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,103.613,98.034,352248 315374 322593 339011 417314
+36,ivf_pq,Gaming laptop with a high refresh rate display and dedicated GPU,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,44.133,39.977,416046 415857 412884 418832 416758
+37,ivf_pq,Laptop for machine learning experiments with NVIDIA graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,51.849,47.251,327328 415012 308518 411364 324261
+38,ivf_pq,Quiet lightweight business laptop with an SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,128.327,123.259,414033 411901 415217 413550 412599
+39,ivf_pq,Laptop with strong battery life and a comfortable keyboard for university,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,28.688,23.843,354911 351422 324900 323722 418042
+40,ivf_pq,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,143.423,138.077,324106 413846 336266 338600 313301
+1,hnsw,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,133.215,126.885,414122 415533 411485 415062 414494
+2,hnsw,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,148.401,142.265,411439 418259 411197 418832 415779
+3,hnsw,Laptop for university programming with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,121.158,115.328,355798 322105 325229 417862 415012
+4,hnsw,Lightweight student laptop under 2 kg with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,155.899,144.567,337025 339011 322593 411493 351220
+5,hnsw,Business laptop with a comfortable keyboard under 1200 USD,0.0,0.0,0.2,0.06666666666666667,0.131205,0.2,0.04,True,0.06666666666666667,174.944,162.541,338015 355150 335960 352384 354911
+6,hnsw,Portable professional laptop with a bright display and good battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,113.912,107.273,416731 417145 343246 418042 417215
+7,hnsw,Programming laptop with a powerful CPU and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,140.269,134.678,330842 412221 326576 411761 415173
+8,hnsw,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,131.179,126.18,329688 413846 338600 418428 417145
+9,hnsw,Creative work laptop with a high resolution display and fast SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,138.796,133.416,314867 416065 418413 415195 312868
+10,hnsw,Workstation laptop with RTX graphics and at least 32 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,113.292,108.287,413846 318572 338600 341406 312868
+11,hnsw,Windows laptop under 1000 USD with 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,77.662,72.448,415209 295738 412516 323446 326523
+12,hnsw,Laptop between 800 and 1400 USD with SSD storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,115.149,108.588,418178 415799 418413 418821 415197
+13,hnsw,Laptop below 900 USD for office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,84.469,78.653,345841 417110 351422 296244 308518
+14,hnsw,Laptop above 1500 USD with a powerful processor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,94.573,89.38,323093 331646 317510 303746 322105
+15,hnsw,Dell laptop for business use with a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,124.84,119.862,338015 316974 413742 311303 418821
+16,hnsw,Lenovo laptop for programming with at least 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,124.95,120.125,415197 415842 418344 359424 412583
+17,hnsw,HP laptop for students with a lightweight design,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,113.585,108.859,330842 358572 319160 412221 357962
+18,hnsw,Asus gaming laptop with RTX graphics under 2000 USD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.06666666666666667,106.954,102.553,415515 411764 418474 415906 415847
+19,hnsw,Acer laptop with at least 512 GB storage and Windows,0.0,0.3333333333333333,0.2,0.06666666666666667,0.213986,0.5,0.1,True,0.06666666666666667,108.691,104.197,314867 340266 413407 302621 345203
+20,hnsw,Laptop without RTX graphics for quiet office work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,108.949,104.311,351210 351422 313280 358970 309415
+21,hnsw,Laptop that must have 32 GB RAM for software development,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,139.729,135.213,354238 350048 413550 414546 417811
+22,hnsw,Laptop required to have an SSD and Windows operating system,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,99.337,94.118,417862 412516 418888 415620 317035
+23,hnsw,Only lightweight laptops under 1.8 kg for travel,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,404.679,399.643,339011 321545 337025 322593 411214
+24,hnsw,Laptop with at least 1 TB storage for media files,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,75.958,71.357,347057 349740 413056 324118 316683
+25,hnsw,Laptop with at least 16 GB RAM and a comfortable keyboard,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,77.724,72.491,358790 350249 352487 327510 338015
+26,hnsw,Portable laptop under 1200 USD with a good display,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,80.347,75.252,418888 352639 415124 412516 352384
+27,hnsw,Gaming laptop with RTX 4060 and 16 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.13333333333333333,145.186,140.475,340267 336176 412130 412129 414474
+28,hnsw,Laptop with GTX graphics and at least 512 GB storage,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,103.777,98.934,412053 416065 418821 418973 418259
+29,hnsw,Business laptop under 1500 USD that is not Dell,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,95.981,90.92,331228 411797 313972 358970 416976
+30,hnsw,Linux laptop for programming with at least 16 GB RAM,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,24.914,21.111,306211
+31,hnsw,Laptop for office and video calls with long battery life,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,39.865,36.04,412221 335960 412304 337025 412153
+32,hnsw,Laptop under 700 USD for basic student work,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,70.088,64.981,358572 418570 412132 411867 411493
+33,hnsw,Laptop between 1000 and 1800 USD for creative professionals,1.0,0.3333333333333333,0.2,0.06666666666666667,0.33916,1.0,0.2,True,0.06666666666666667,78.793,73.56,413846 418033 418378 349127 320680
+34,hnsw,Laptop with a 15 inch or larger display for productivity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,146.959,142.393,308873 317205 328957 418772 417270
+35,hnsw,Laptop below 2 kg with at least 8 GB RAM,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,109.744,104.611,352248 417314 322593 339011 337025
+36,hnsw,Gaming laptop with a high refresh rate display and dedicated GPU,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,56.901,52.596,412884 415857 411215 417360 416046
+37,hnsw,Laptop for machine learning experiments with NVIDIA graphics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,55.897,51.796,308221 308518 415012 327328 416891
+38,hnsw,Quiet lightweight business laptop with an SSD,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,117.736,112.597,415799 417659 414033 418053 415217
+39,hnsw,Laptop with strong battery life and a comfortable keyboard for university,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,33.657,29.623,348491 354911 338015 417215 418042
+40,hnsw,"Laptop with RTX graphics, 32 GB RAM, and at least 1 TB storage",0.0,0.0,0.0,0.0,0.0,0.0,0.0,False,0.0,134.215,129.212,413846 338600 324106 313301 336266

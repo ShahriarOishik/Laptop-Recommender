@@ -1,0 +1,108 @@
+row_id,query,filters,provider,search_mode,cache_hit,relaxed_filters,answer,recommended_laptops,relevance_to_request,factual_correctness,grounding_in_sources,source_citation_validity,hard_constraint_adherence,completeness_of_justification,clarity_and_usefulness,disclosure_of_relaxed_filters,appropriate_refusal_for_outliers,hallucination_severity_5_is_none,reviewer_notes
+1,Gaming laptop under 1500 USD with at least 16 GB RAM and RTX graphics,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Lenovo Lenovo IdeaPad Gaming 3 15IAH7 (82S9014MIN) ($770.00) [417162_review_para_0]
+- Lenovo Lenovo Ideapad Ideapad Gaming 3 (82K201RQIN) ($810.00) [414853_review_para_0]
+- Lenovo Lenovo Ideapad Gaming 3 15ACH6 (82K200X3IN) ($820.00) [414108_review_para_0]
+- Lenovo Lenovo Ideapad Gaming 3 15ACH6 (82K201ULIN) ($780.00) [413227_review_para_0]
+- Lenovo Lenovo IdeaPad Gaming 3 15ARH7 (82SB00QSIN) ($750.00) [413108_review_para_0]
+LLM generation was unavailable; retrieval-only results are shown.",Lenovo Lenovo IdeaPad Gaming 3 15IAH7 (82S9014MIN) ($770); Lenovo Lenovo Ideapad Ideapad Gaming 3 (82K201RQIN) ($810); Lenovo Lenovo Ideapad Gaming 3 15ACH6 (82K200X3IN) ($820); Lenovo Lenovo Ideapad Gaming 3 15ACH6 (82K201ULIN) ($780); Lenovo Lenovo IdeaPad Gaming 3 15ARH7 (82SB00QSIN) ($750),,,,,,,,,,,
+2,Affordable gaming laptop with a dedicated GPU and 512 GB SSD,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- MSI MSI GE65 Raider 9SF-049US ($2,600.00) [313615_pros]
+- Medion Medion Erazer Beast X25 ($4,100.00) [324106_review_para_1]
+- Lenovo Lenovo Legion 7i (83FD000YIN) ($1,730.00) [418378_pros]
+- Lenovo Lenovo Ideapad Gaming 3 15IAH7 (82S9017TIN) ($680.00) [416177_pros]
+- Lenovo Lenovo Ideapad Gaming 3i (81Y400VBIN) ($1,100.00) [415556_pros]
+LLM generation was unavailable; retrieval-only results are shown.",MSI MSI GE65 Raider 9SF-049US ($2600); Medion Medion Erazer Beast X25 ($4100); Lenovo Lenovo Legion 7i (83FD000YIN) ($1730); Lenovo Lenovo Ideapad Gaming 3 15IAH7 (82S9017TIN) ($680); Lenovo Lenovo Ideapad Gaming 3i (81Y400VBIN) ($1100),,,,,,,,,,,
+3,Laptop for university programming with 16 GB RAM,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Asus Asus VivoBook Pro 16 ($1,740.00) [337047_review_para_14]
+- Lenovo Lenovo ThinkPad E16 G3-21SSS00F00 ($1,045.00) [354911_summary]
+- Lenovo Lenovo ThinkBook 16 G7 IML ($750.00) [350783_summary]
+- Lenovo Lenovo ThinkPad P16v G3 21RS000DGE ($3,275.00) [358946_review_para_3]
+- Acer Acer Aspire 5 A515-58GM-76S8 ($1,390.00) [339567_review_para_31]
+LLM generation was unavailable; retrieval-only results are shown.",Asus Asus VivoBook Pro 16 ($1740); Lenovo Lenovo ThinkPad E16 G3-21SSS00F00 ($1045); Lenovo Lenovo ThinkBook 16 G7 IML ($750); Lenovo Lenovo ThinkPad P16v G3 21RS000DGE ($3275); Acer Acer Aspire 5 A515-58GM-76S8 ($1390),,,,,,,,,,,
+4,Lightweight student laptop under 2 kg with long battery life,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Asus Asus EeeBook 12 E210MA-GJ012W ($120.00) [418717_review_para_15]
+- Asus Asus 12 E210MA-GJ001W ($210.00) [418535_review_para_15]
+- Asus Asus BR1104CGA-N00007XA ($440.00) [345734_review_para_15]
+- Asus Asus VivoBook 15 OLED M1505YA-LK541WS ($660.00) [418876_pros]
+- Asus Asus VivoBook Go 15 OLED E1504FA-LK542WS ($470.00) [416197_pros]
+LLM generation was unavailable; retrieval-only results are shown.",Asus Asus EeeBook 12 E210MA-GJ012W ($120); Asus Asus 12 E210MA-GJ001W ($210); Asus Asus BR1104CGA-N00007XA ($440); Asus Asus VivoBook 15 OLED M1505YA-LK541WS ($660); Asus Asus VivoBook Go 15 OLED E1504FA-LK542WS ($470),,,,,,,,,,,
+5,Business laptop with a comfortable keyboard under 1200 USD,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Acer Acer ALG AL15G-53 (UN.34LSI.001) ($730.00) [413407_pros]
+- Dell Dell Inspiron 15 15 5570 (B560151WIN9) ($420.00) [412890_pros]
+- Dell Dell Latitude 15 3590 ($1,045.00) [309594_pros]
+- Lenovo Lenovo ThinkPad E16 G3-21SSS00F00 ($1,045.00) [354911_pros]
+- Lenovo Lenovo Thinkpad T490 (20RYS01H00) ($1,100.00) [412568_review_para_49]
+LLM generation was unavailable; retrieval-only results are shown.",Acer Acer ALG AL15G-53 (UN.34LSI.001) ($730); Dell Dell Inspiron 15 15 5570 (B560151WIN9) ($420); Dell Dell Latitude 15 3590 ($1045); Lenovo Lenovo ThinkPad E16 G3-21SSS00F00 ($1045); Lenovo Lenovo Thinkpad T490 (20RYS01H00) ($1100),,,,,,,,,,,
+6,Portable professional laptop with a bright display and good battery life,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Dell Dell Latitude 5420 Rugged-P85G ($3,200.00) [308509_pros]
+- MSI MSI Modern 14 B11SB-085 ($1,390.00) [323607_pros]
+- Acer Acer Aspire 3 A324-51 (UN.343SI.00A) ($500.00) [417972_pros]
+- Acer Acer Aspire 5 A514-52G (NX.HT6SI.001) ($635.00) [417528_pros]
+- Acer Acer Aspire 3 A324-53 (UN.34RSI.002) ($340.00) [416922_pros]
+LLM generation was unavailable; retrieval-only results are shown.",Dell Dell Latitude 5420 Rugged-P85G ($3200); MSI MSI Modern 14 B11SB-085 ($1390); Acer Acer Aspire 3 A324-51 (UN.343SI.00A) ($500); Acer Acer Aspire 5 A514-52G (NX.HT6SI.001) ($635); Acer Acer Aspire 3 A324-53 (UN.34RSI.002) ($340),,,,,,,,,,,
+7,Programming laptop with a powerful CPU and at least 512 GB storage,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Lenovo Lenovo ThinkPad L13 Gen2-21AB000PGE ($1,160.00) [327311_review_para_17]
+- Fujitsu Fujitsu UH-X 4ZR1M37246 ($800.00) [417323_summary]
+- Fujitsu Fujitsu UH-X 4ZR1K06212 ($800.00) [416208_summary]
+- Fujitsu Fujitsu UH-X 4ZR1J37876 ($1,000.00) [416183_summary]
+- Fujitsu Fujitsu Lifebook U939X ($1,970.00) [316789_summary]
+LLM generation was unavailable; retrieval-only results are shown.",Lenovo Lenovo ThinkPad L13 Gen2-21AB000PGE ($1160); Fujitsu Fujitsu UH-X 4ZR1M37246 ($800); Fujitsu Fujitsu UH-X 4ZR1K06212 ($800); Fujitsu Fujitsu UH-X 4ZR1J37876 ($1000); Fujitsu Fujitsu Lifebook U939X ($1970),,,,,,,,,,,
+8,Laptop for video editing with a dedicated NVIDIA GPU and 32 GB RAM,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Medion Medion Erazer Beast X25 ($4,100.00) [324106_review_para_1]
+- Asus Asus ProArt StudioBook 16 H7600ZW ($2,900.00) [335712_spec]
+- Dell Dell Precision 5000 5470 ($3,200.00) [332189_pros]
+- Medion Medion Erazer Major X20 ($2,900.00) [336795_review_para_11]
+- Asus Asus ROG Flow X13 GV301QC-K6085TS ($1,370.00) [414286_review_para_20]
+LLM generation was unavailable; retrieval-only results are shown.",Medion Medion Erazer Beast X25 ($4100); Asus Asus ProArt StudioBook 16 H7600ZW ($2900); Dell Dell Precision 5000 5470 ($3200); Medion Medion Erazer Major X20 ($2900); Asus Asus ROG Flow X13 GV301QC-K6085TS ($1370),,,,,,,,,,,
+9,Creative work laptop with a high resolution display and fast SSD,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Alldocube Alldocube iWork GT Ultra ($925.00) [360222_pros]
+- Medion Medion Erazer Beast X25 ($4,100.00) [324106_review_para_1]
+- Asus Asus TUF Gaming A15 FA506IC-HN075W ($890.00) [416829_pros]
+- Asus Asus TUF FX705DT-AU068T ($1,215.00) [309490_pros]
+- Razer Razer Book 13 FHD ($1,600.00) [320026_pros]
+LLM generation was unavailable; retrieval-only results are shown.",Alldocube Alldocube iWork GT Ultra ($925); Medion Medion Erazer Beast X25 ($4100); Asus Asus TUF Gaming A15 FA506IC-HN075W ($890); Asus Asus TUF FX705DT-AU068T ($1215); Razer Razer Book 13 FHD ($1600),,,,,,,,,,,
+10,Workstation laptop with RTX graphics and at least 32 GB RAM,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Acer Acer Predator Helios 18 N23Q2 ($4,290.00) [341344_review_para_9]
+- Microsoft Microsoft Surface Laptop Studio 2 RTX 4060 ($4,405.00) [341406_spec]
+- Lenovo Lenovo ThinkPad P15 G2-20YQ001JGE ($2,240.00) [324878_review_para_26]
+- Asus Asus StudioBook Pro X W730G5T-H8050T ($7,540.00) [312868_summary]
+- Medion Medion Erazer Beast X25 ($4,100.00) [324106_review_para_1]
+LLM generation was unavailable; retrieval-only results are shown.",Acer Acer Predator Helios 18 N23Q2 ($4290); Microsoft Microsoft Surface Laptop Studio 2 RTX 4060 ($4405); Lenovo Lenovo ThinkPad P15 G2-20YQ001JGE ($2240); Asus Asus StudioBook Pro X W730G5T-H8050T ($7540); Medion Medion Erazer Beast X25 ($4100),,,,,,,,,,,
+11,Windows laptop under 1000 USD with 16 GB RAM,{},retrieval_only,semantic,False,"[""min_ram_gb"", ""operating_systems""]","Top retrieved laptops:
+- Acer Acer Chromebook CBV514-1H (NX.KAJSI.00E) ($690.00) [417119_review_para_9]
+- MSI MSI Modern 14 C13M-435IN ($620.00) [416246_review_para_13]
+- MSI MSI Modern 15 B13M-290IN ($430.00) [414920_review_para_13]
+- Dell Dell Inspiron 15 15 3558 (Z565169UIN9) ($390.00) [415975_review_para_14]
+- Dell Dell Inspiron 15 15 3558 (Z565109UIN4) ($315.00) [412536_review_para_14]
+Relaxed metadata filters: min_ram_gb, operating_systems.
+LLM generation was unavailable; retrieval-only results are shown.",Acer Acer Chromebook CBV514-1H (NX.KAJSI.00E) ($690); MSI MSI Modern 14 C13M-435IN ($620); MSI MSI Modern 15 B13M-290IN ($430); Dell Dell Inspiron 15 15 3558 (Z565169UIN9) ($390); Dell Dell Inspiron 15 15 3558 (Z565109UIN4) ($315),,,,,,,,,,,
+12,Laptop between 800 and 1400 USD with SSD storage,{},retrieval_only,semantic,False,"[""max_price_usd"", ""min_price_usd"", ""storage_types""]","Top retrieved laptops:
+- Asus Asus Zenbook 14 UX435EG-AI501TS ($800.00) [416082_review_para_19]
+- Asus Asus Zenbook 14 UX431FL-AN088T ($600.00) [415518_review_para_19]
+- Asus Asus Zenbook UX430UA-GV307T ($505.00) [412384_review_para_19]
+- Asus Asus Zenbook 14 UX425JA-BM076TS ($590.00) [411385_review_para_19]
+- Asus Asus Zenbook 14 UX431FA-ES51 ($1,640.00) [411343_review_para_19]
+Relaxed metadata filters: max_price_usd, min_price_usd, storage_types.
+LLM generation was unavailable; retrieval-only results are shown.",Asus Asus Zenbook 14 UX435EG-AI501TS ($800); Asus Asus Zenbook 14 UX431FL-AN088T ($600); Asus Asus Zenbook UX430UA-GV307T ($505); Asus Asus Zenbook 14 UX425JA-BM076TS ($590); Asus Asus Zenbook 14 UX431FA-ES51 ($1640),,,,,,,,,,,
+13,Laptop below 900 USD for office work,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Dell Dell Inspiron 15 15 5567 (Z563505SIN9) ($710.00) [413102_summary]
+- HP HP 250 G9 (821J6PA) ($650.00) [415266_review_para_16]
+- Lenovo Lenovo V17-IIL 82GX008TGE ($695.00) [322128_review_para_0]
+- Asus Asus ExpertBook P1 P1503CVA-S70188X ($855.00) [351630_summary]
+- Dell Dell Inspiron 15 15 3558 (Z565109UIN4) ($315.00) [412536_review_para_13]
+LLM generation was unavailable; retrieval-only results are shown.",Dell Dell Inspiron 15 15 5567 (Z563505SIN9) ($710); HP HP 250 G9 (821J6PA) ($650); Lenovo Lenovo V17-IIL 82GX008TGE ($695); Asus Asus ExpertBook P1 P1503CVA-S70188X ($855); Dell Dell Inspiron 15 15 3558 (Z565109UIN4) ($315),,,,,,,,,,,
+14,Laptop above 1500 USD with a powerful processor,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- BMAX BMAX X14 Pro ($490.00) [327877_summary]
+- Dell Dell G5 15 SE 5505 P89F ($1,200.00) [316710_summary]
+- HP HP Omen 16-C0136AX (4A3E1PA) ($720.00) [417373_review_para_13]
+- HP HP Omen 16-C0138AX (4A3E3PA) ($1,000.00) [413572_review_para_13]
+- HP HP Omen 16-xf0060AX (8J499PA) ($1,140.00) [414759_review_para_13]
+LLM generation was unavailable; retrieval-only results are shown.",BMAX BMAX X14 Pro ($490); Dell Dell G5 15 SE 5505 P89F ($1200); HP HP Omen 16-C0136AX (4A3E1PA) ($720); HP HP Omen 16-C0138AX (4A3E3PA) ($1000); HP HP Omen 16-xf0060AX (8J499PA) ($1140),,,,,,,,,,,
+15,Dell laptop for business use with a comfortable keyboard,{},retrieval_only,semantic,False,[],"Top retrieved laptops:
+- Dell Dell Inspiron 15 15 5570 (B560151WIN9) ($420.00) [412890_pros]
+- Dell Dell Latitude 15 3590 ($1,045.00) [309594_pros]
+- Dell Dell Inspiron 14 14 7490 (C567501WIN9) ($880.00) [419192_review_para_5]
+- Dell Dell G7 15 15 7588 (B568105WIN9) ($1,300.00) [418821_review_para_5]
+- Dell Dell Inspiron 15 15 5593 (C560519WIN9) ($865.00) [418275_review_para_5]
+LLM generation was unavailable; retrieval-only results are shown.",Dell Dell Inspiron 15 15 5570 (B560151WIN9) ($420); Dell Dell Latitude 15 3590 ($1045); Dell Dell Inspiron 14 14 7490 (C567501WIN9) ($880); Dell Dell G7 15 15 7588 (B568105WIN9) ($1300); Dell Dell Inspiron 15 15 5593 (C560519WIN9) ($865),,,,,,,,,,,

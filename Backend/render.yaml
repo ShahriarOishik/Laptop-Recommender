@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: laptop-rag-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /ready
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: EMBEDDING_DEVICE
+        value: cpu
+      - key: DEFAULT_INDEX
+        value: ivf_flat
+      - key: INDEX_CACHE_SIZE
+        value: 10
+      - key: TRUST_FORWARDED_FOR
+        value: true
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ARTIFACT_BASE_URL
+        sync: false

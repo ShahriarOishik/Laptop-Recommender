@@ -1,0 +1,1967 @@
+{
+  "generated_at": "2026-08-17T09:51:29.494195+00:00",
+  "base_url": "http://127.0.0.1:7860",
+  "summary": {
+    "total": 22,
+    "passed": 22,
+    "failed": 0
+  },
+  "runtime": {
+    "status": "ready",
+    "version": "0.1.0",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "embedding_ready": true,
+    "faiss_ready": true,
+    "metadata_backend": "parquet",
+    "metadata_ready": true,
+    "qdrant_ready": false,
+    "llm_providers": [
+      "groq",
+      "gemini"
+    ],
+    "errors": []
+  },
+  "checks": [
+    {
+      "name": "health endpoint",
+      "status": "passed",
+      "details": {
+        "status": "ready",
+        "version": "0.1.0",
+        "embedding_model": "BAAI/bge-base-en-v1.5",
+        "embedding_ready": true,
+        "faiss_ready": true,
+        "metadata_backend": "parquet",
+        "metadata_ready": true,
+        "qdrant_ready": false,
+        "llm_providers": [
+          "groq",
+          "gemini"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "readiness endpoint",
+      "status": "passed",
+      "details": {
+        "status_code": 200
+      }
+    },
+    {
+      "name": "OpenAPI documentation",
+      "status": "passed",
+      "details": {
+        "status_code": 200
+      }
+    },
+    {
+      "name": "index settings",
+      "status": "passed",
+      "details": {
+        "indexes": [
+          "flat",
+          "ivf_flat",
+          "pq",
+          "ivf_pq",
+          "hnsw"
+        ],
+        "default": "ivf_flat",
+        "candidate_k": 20
+      }
+    },
+    {
+      "name": "flat retrieval",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "semantic",
+        "index_used": "flat",
+        "candidate_k": 20,
+        "metadata_match_count": null,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 2,
+        "filter_name": "core_requirements",
+        "relaxed_filters": [
+          "gpu_tags",
+          "min_ram_gb"
+        ],
+        "parsed_query": {
+          "original_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_constraints": [
+            "gaming"
+          ],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 2000.0,
+            "min_ram_gb": 16.0,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [
+              "rtx"
+            ],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.709858775138855,
+        "similarity_threshold": 0.6689083576202393,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 318636,
+            "brand": "Gateway",
+            "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+            "price_usd": 1000.0,
+            "score": 0.707362,
+            "metadata": {
+              "brand": "Gateway",
+              "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+              "char_len": 212,
+              "cpu_full": "Intel Core i5-10300H 4c/8t 4 x 2.5 - 4.5 GHz, Comet Lake-H",
+              "gpu_full": "NVIDIA GeForce RTX 2060 Mobile - 6 GB VRAM, Core: 1005 MHz, RAM: 1375 MHz, GDDR6, 451.67, Optimus",
+              "ram_full": "8 GB , Micron DDR4-3200, 21-21-21-47, Single-Channel",
+              "storage": "Phison PS5013 PM8256GPTCB4B8TF , 256 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FHM-NX1, IPS, glossy: no, 120 Hz",
+              "battery": "46.74 Wh Lithium-Polymer",
+              "weight_kg": 1.972,
+              "os": "windows",
+              "connectivity": "1 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 USB 3.1 Gen2, 1 HDMI, 2 DisplayPort, Audio Connections: 3.5 mm micriphone, 3.5 mm earphones, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Intel Wi-Fi 6 AX201 (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience.",
+              "pros": "inexpensive especially for a GeForce RTX 2060 laptop | relatively small and lightweight | 2x SODIMM, 2x M.2 2280 slots | 2x Mini-DisplayPort ports | RGB keyboard lighting | 1080p IPS panel",
+              "cons": "ships with just 8 GB of single-channel RAM and 256 GB SSD | response times, gamut, and contrast are average at best | upgrading RAM or storage will void warranty | no Thunderbolt 3 or DisplayPort-over-USB | suboptimal webcam positioning | loud fans when gaming | slow SD card reader",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1000.0,
+              "brand_normalized": "gateway",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 256.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 2060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 7091,
+                "chunk_id": "318636_summary",
+                "laptop_id": 318636,
+                "chunk_type": "summary",
+                "score": 0.707362,
+                "text": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience."
+              }
+            ]
+          },
+          {
+            "laptop_id": 419105,
+            "brand": "Asus",
+            "model": "Asus Gaming V16 V3607VU-RP275WS",
+            "price_usd": 900.0,
+            "score": 0.695615,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Gaming V16 V3607VU-RP275WS",
+              "char_len": 170,
+              "cpu_full": "Intel Core 7 - 240H (Series 2) 5.2 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 4050 16 GB",
+              "ram_full": "16 GB, DDR5, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA Display, No",
+              "battery": "150 W, 3 Cell, Li-Ion",
+              "weight_kg": 1.95,
+              "os": "windows",
+              "connectivity": "HDMI: Yes (HDMI 2.1), USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 62745,
+                "chunk_id": "419105_spec",
+                "laptop_id": 419105,
+                "chunk_type": "spec",
+                "score": 0.695615,
+                "text": "Asus Asus Gaming V16 V3607VU-RP275WS laptop. CPU: Intel Core 7 - 240H (Series 2) 5.2 Ghz. GPU: NVIDIA GeForce RTX 4050 16 GB. 16 GB RAM, 512 GB storage. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 358353,
+            "brand": "Lenovo",
+            "model": "Lenovo ThinkPad P1 Gen 8",
+            "price_usd": 2000.0,
+            "score": 0.692859,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo ThinkPad P1 Gen 8",
+              "char_len": 261,
+              "cpu_full": "Intel Core Ultra 7 255H 16c/16t, 6 x 5.1 GHz Intel Lion Cove P-Core, 8 x 4.4 GHz Intel Skymont E-Core, 2 x 2.5 GHz Intel Crestmont E-Core, 120 W PL2 / Short Burst, 101 W PL1 / Sustained, Arrow Lake-H",
+              "gpu_full": "NVIDIA RTX PRO 2000 Blackwell Generation Laptop - 8 GB VRAM, Core: 2070 MHz, RAM: 1500 MHz, 75 W TDP, GDDR7, 581.80, Optimus",
+              "ram_full": "32 GB , Dual-Channel, LPCAMM2, One slot",
+              "storage": "Samsung PM9E1 1 TB MZVLC1T0HFLU , 1024 GB",
+              "display_full": "16.00 inch 16:10, 3200 x 2000 pixel 236 PPI, Capacitive, Samsung ATNA60KA02-0, Tandem OLED, glossy: no, HDR, 120 Hz",
+              "battery": "90 Wh Lithium-Polymer",
+              "weight_kg": 1.909,
+              "os": "windows",
+              "connectivity": "4 USB 3.1 Gen2, 2 USB4 40 Gbps, 1 Thunderbolt 4, 2 Thunderbolt 5, USB-C Power Delivery (PD), 1 HDMI, 3 DisplayPort, 1 Kensington Lock, Audio Connections: 3.5 mm combo, Card Reader: SD, 1 Fingerprint Reader | Intel BE201 320MHz (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/ Wi-Fi 6E 6 GHz be = Wi-Fi 7), Bluetooth 5.4",
+              "summary": "The ThinkPad P1 Gen 8 may look the same as the previous generation model, but the new tandem OLED display option can improve the HDR viewing experience tremendously for those who value it.",
+              "pros": "thin and lightweight for a 16-inch workstation | supports up to two M.2 2280 SSDs | fast LPCAMM2 RAM up to 64 GB | Thunderbolt 5 compatible | relatively quiet",
+              "cons": "matte tandem OLED can appear slightly grainy up close | one-year base warranty instead of three years | shorter battery life with OLED | fingerprint-loving surfaces | no ECC RAM",
+              "ram_capacity_gb": 32.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 3200.0,
+              "display_resolution_height": 2000.0,
+              "price_usd": 2000.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 2048.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 22185,
+                "chunk_id": "358353_spec",
+                "laptop_id": 358353,
+                "chunk_type": "spec",
+                "score": 0.692859,
+                "text": "Lenovo Lenovo ThinkPad P1 Gen 8 laptop. CPU: Intel Core Ultra 7 255H (16 cores / 16 threads). GPU: NVIDIA RTX PRO 2000 Blackwell Generation Laptop - 8 GB VRAM (discrete). 32 GB RAM, 1024 GB storage. 16-inch, TN screen, 3200x2000, 120 Hz, HDR. Price: 2000.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 316710,
+            "brand": "Dell",
+            "model": "Dell G5 15 SE 5505 P89F",
+            "price_usd": 1200.0,
+            "score": 0.690368,
+            "metadata": {
+              "brand": "Dell",
+              "model": "Dell G5 15 SE 5505 P89F",
+              "char_len": 225,
+              "cpu_full": "AMD Ryzen 7 4800H 8c/16t 8 x 2.9 - 4.2 GHz, Renoir-H (Zen 2)",
+              "gpu_full": "AMD Radeon RX 5600M - 6 GB VRAM, Core: 1750 MHz, RAM: 1500 MHz, GDDR6, 27.20.1010.1",
+              "ram_full": "16 GB , Sk Hynix DDR4-3200, 22-22-22-52, Dual-Channel",
+              "storage": "Samsung PM991 MZ9LQ512HALU , 512 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FH, WVA, BOE084A, Dell P/N: F5T P, glossy: no, 144 Hz",
+              "battery": "51 Wh Lithium-Polymer",
+              "weight_kg": 2.428,
+              "os": "windows",
+              "connectivity": "2 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 HDMI, 2 DisplayPort, 1 Kensington Lock, Audio Connections: 3.5 mm combo, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Killer Wi-Fi 6 AX1650x Wireless Network Adapter (200NGW) (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive.",
+              "pros": "easy serviceability; 2x SODIMM, 2x M.2 2280 | minimal ghosting, high refresh rate | impressive processor performance | quad-zone RGB keyboard lighting | adaptive sync on 144 Hz panel | high performance-per-dollar | decent battery life",
+              "cons": "very warm CPU and GPU temperatures | PWM on almost all brightness levels | very warm surface temperatures | no adaptive sync on 60 Hz panel | fingerprint-loving clickpad keys | uneven backlight bleeding | slow SD card reader | spongy clickpad | loud fan noise",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1200.0,
+              "brand_normalized": "dell",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "radeon",
+                "rx",
+                "rx 5600m"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 6045,
+                "chunk_id": "316710_summary",
+                "laptop_id": 316710,
+                "chunk_type": "summary",
+                "score": 0.690368,
+                "text": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive."
+              }
+            ]
+          },
+          {
+            "laptop_id": 416778,
+            "brand": "HP",
+            "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+            "price_usd": 1100.0,
+            "score": 0.689707,
+            "metadata": {
+              "brand": "HP",
+              "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+              "char_len": 213,
+              "cpu_full": "Intel Core i7-10750H (10th Gen) 2.6 Ghz Intel HM470",
+              "gpu_full": "NVIDIA Geforce GTX 1650 Ti 16 GB",
+              "ram_full": "16 GB, DDR4-2933, 2933 MT/s MHz, 2 Slots",
+              "storage": "SSD: 256 GB; HDD: 1 TB, 5400 RPM, SATA",
+              "display_full": "16.1 Inches (40.89 cm), 1920 x 1080 Pixels, 137 ppi, LED, Diagonal Full HD   IPS   anti-glare   micro-edge WLED-backlit   250 nits   45% NTSC Display, No",
+              "battery": "200 W AC Adapter W, 3 Cell, Li-Ion",
+              "weight_kg": 2.35,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, SD Card Reader: Yes, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money.",
+              "pros": "chic design | fast enough for Full HD gaming | 16 GB of RAM | fast SSD | long battery life | price | backlit keyboard | SD card reader",
+              "cons": "4 GB of VRAM | no Wi-Fi 6 | poor colour-space coverage | poor response times",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.1,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1100.0,
+              "brand_normalized": "hp",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1280.0,
+              "storage_types": [
+                "ssd",
+                "hdd"
+              ],
+              "gpu_tags": [
+                "gtx",
+                "gtx 1650"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 52266,
+                "chunk_id": "416778_summary",
+                "laptop_id": 416778,
+                "chunk_type": "summary",
+                "score": 0.689707,
+                "text": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money."
+              },
+              {
+                "vector_id": 52259,
+                "chunk_id": "416778_review_para_24",
+                "laptop_id": 416778,
+                "chunk_type": "review_para_24",
+                "score": 0.686448,
+                "text": "The HP Pavilion Gaming 16 is a gaming laptop with a very good price-to-performance ratio.\n\nUsers will have to make do with relatively poor multi-core performance, because the Core i5-10300H has only four cores. When it comes to the ports, the Pavilion Gaming 16 offers the bare minimum. An additional USB Type-A port would have come in handy. Wi-Fi 6 would also be a welcome inclusion. However, our review device comes with 16 GB of RAM and an IPS display with a good contrast ratio."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 357.31
+      }
+    },
+    {
+      "name": "ivf_flat retrieval",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "semantic",
+        "index_used": "ivf_flat",
+        "candidate_k": 20,
+        "metadata_match_count": null,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 2,
+        "filter_name": "core_requirements",
+        "relaxed_filters": [
+          "gpu_tags",
+          "min_ram_gb"
+        ],
+        "parsed_query": {
+          "original_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_constraints": [
+            "gaming"
+          ],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 2000.0,
+            "min_ram_gb": 16.0,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [
+              "rtx"
+            ],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.709858775138855,
+        "similarity_threshold": 0.6689083576202393,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 318636,
+            "brand": "Gateway",
+            "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+            "price_usd": 1000.0,
+            "score": 0.707362,
+            "metadata": {
+              "brand": "Gateway",
+              "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+              "char_len": 212,
+              "cpu_full": "Intel Core i5-10300H 4c/8t 4 x 2.5 - 4.5 GHz, Comet Lake-H",
+              "gpu_full": "NVIDIA GeForce RTX 2060 Mobile - 6 GB VRAM, Core: 1005 MHz, RAM: 1375 MHz, GDDR6, 451.67, Optimus",
+              "ram_full": "8 GB , Micron DDR4-3200, 21-21-21-47, Single-Channel",
+              "storage": "Phison PS5013 PM8256GPTCB4B8TF , 256 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FHM-NX1, IPS, glossy: no, 120 Hz",
+              "battery": "46.74 Wh Lithium-Polymer",
+              "weight_kg": 1.972,
+              "os": "windows",
+              "connectivity": "1 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 USB 3.1 Gen2, 1 HDMI, 2 DisplayPort, Audio Connections: 3.5 mm micriphone, 3.5 mm earphones, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Intel Wi-Fi 6 AX201 (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience.",
+              "pros": "inexpensive especially for a GeForce RTX 2060 laptop | relatively small and lightweight | 2x SODIMM, 2x M.2 2280 slots | 2x Mini-DisplayPort ports | RGB keyboard lighting | 1080p IPS panel",
+              "cons": "ships with just 8 GB of single-channel RAM and 256 GB SSD | response times, gamut, and contrast are average at best | upgrading RAM or storage will void warranty | no Thunderbolt 3 or DisplayPort-over-USB | suboptimal webcam positioning | loud fans when gaming | slow SD card reader",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1000.0,
+              "brand_normalized": "gateway",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 256.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 2060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 7091,
+                "chunk_id": "318636_summary",
+                "laptop_id": 318636,
+                "chunk_type": "summary",
+                "score": 0.707362,
+                "text": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience."
+              }
+            ]
+          },
+          {
+            "laptop_id": 419105,
+            "brand": "Asus",
+            "model": "Asus Gaming V16 V3607VU-RP275WS",
+            "price_usd": 900.0,
+            "score": 0.695615,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Gaming V16 V3607VU-RP275WS",
+              "char_len": 170,
+              "cpu_full": "Intel Core 7 - 240H (Series 2) 5.2 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 4050 16 GB",
+              "ram_full": "16 GB, DDR5, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA Display, No",
+              "battery": "150 W, 3 Cell, Li-Ion",
+              "weight_kg": 1.95,
+              "os": "windows",
+              "connectivity": "HDMI: Yes (HDMI 2.1), USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 62745,
+                "chunk_id": "419105_spec",
+                "laptop_id": 419105,
+                "chunk_type": "spec",
+                "score": 0.695615,
+                "text": "Asus Asus Gaming V16 V3607VU-RP275WS laptop. CPU: Intel Core 7 - 240H (Series 2) 5.2 Ghz. GPU: NVIDIA GeForce RTX 4050 16 GB. 16 GB RAM, 512 GB storage. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 316710,
+            "brand": "Dell",
+            "model": "Dell G5 15 SE 5505 P89F",
+            "price_usd": 1200.0,
+            "score": 0.690368,
+            "metadata": {
+              "brand": "Dell",
+              "model": "Dell G5 15 SE 5505 P89F",
+              "char_len": 225,
+              "cpu_full": "AMD Ryzen 7 4800H 8c/16t 8 x 2.9 - 4.2 GHz, Renoir-H (Zen 2)",
+              "gpu_full": "AMD Radeon RX 5600M - 6 GB VRAM, Core: 1750 MHz, RAM: 1500 MHz, GDDR6, 27.20.1010.1",
+              "ram_full": "16 GB , Sk Hynix DDR4-3200, 22-22-22-52, Dual-Channel",
+              "storage": "Samsung PM991 MZ9LQ512HALU , 512 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FH, WVA, BOE084A, Dell P/N: F5T P, glossy: no, 144 Hz",
+              "battery": "51 Wh Lithium-Polymer",
+              "weight_kg": 2.428,
+              "os": "windows",
+              "connectivity": "2 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 HDMI, 2 DisplayPort, 1 Kensington Lock, Audio Connections: 3.5 mm combo, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Killer Wi-Fi 6 AX1650x Wireless Network Adapter (200NGW) (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive.",
+              "pros": "easy serviceability; 2x SODIMM, 2x M.2 2280 | minimal ghosting, high refresh rate | impressive processor performance | quad-zone RGB keyboard lighting | adaptive sync on 144 Hz panel | high performance-per-dollar | decent battery life",
+              "cons": "very warm CPU and GPU temperatures | PWM on almost all brightness levels | very warm surface temperatures | no adaptive sync on 60 Hz panel | fingerprint-loving clickpad keys | uneven backlight bleeding | slow SD card reader | spongy clickpad | loud fan noise",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1200.0,
+              "brand_normalized": "dell",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "radeon",
+                "rx",
+                "rx 5600m"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 6045,
+                "chunk_id": "316710_summary",
+                "laptop_id": 316710,
+                "chunk_type": "summary",
+                "score": 0.690368,
+                "text": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive."
+              },
+              {
+                "vector_id": 6043,
+                "chunk_id": "316710_review_para_9",
+                "laptop_id": 316710,
+                "chunk_type": "review_para_9",
+                "score": 0.683851,
+                "text": "A 15.6-inch gaming laptop with Core i7-9750H CPU and GeForce RTX 2060 GPU will typically run about $1200 USD. The all-AMD Dell G5 15 SE can be configured with the Ryzen 5 4600H CPU and Radeon RX 5600M GPU for very similar results for about $300 less. Performance-per-dollar is therefore the biggest advantage of the system in a market still dominated by Intel-Nvidia options.\n\nThere are notable disadvantages to keep in mind with temperature and fan noise being the most striking. Warm processors are expected from gaming laptops, but when you're reaching ~95 C when gaming with fans on full blast, this doesn't leave very strong first impressions especially in regard to the longevity of the system."
+              }
+            ]
+          },
+          {
+            "laptop_id": 416778,
+            "brand": "HP",
+            "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+            "price_usd": 1100.0,
+            "score": 0.689707,
+            "metadata": {
+              "brand": "HP",
+              "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+              "char_len": 213,
+              "cpu_full": "Intel Core i7-10750H (10th Gen) 2.6 Ghz Intel HM470",
+              "gpu_full": "NVIDIA Geforce GTX 1650 Ti 16 GB",
+              "ram_full": "16 GB, DDR4-2933, 2933 MT/s MHz, 2 Slots",
+              "storage": "SSD: 256 GB; HDD: 1 TB, 5400 RPM, SATA",
+              "display_full": "16.1 Inches (40.89 cm), 1920 x 1080 Pixels, 137 ppi, LED, Diagonal Full HD   IPS   anti-glare   micro-edge WLED-backlit   250 nits   45% NTSC Display, No",
+              "battery": "200 W AC Adapter W, 3 Cell, Li-Ion",
+              "weight_kg": 2.35,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, SD Card Reader: Yes, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money.",
+              "pros": "chic design | fast enough for Full HD gaming | 16 GB of RAM | fast SSD | long battery life | price | backlit keyboard | SD card reader",
+              "cons": "4 GB of VRAM | no Wi-Fi 6 | poor colour-space coverage | poor response times",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.1,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1100.0,
+              "brand_normalized": "hp",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1280.0,
+              "storage_types": [
+                "ssd",
+                "hdd"
+              ],
+              "gpu_tags": [
+                "gtx",
+                "gtx 1650"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 52266,
+                "chunk_id": "416778_summary",
+                "laptop_id": 416778,
+                "chunk_type": "summary",
+                "score": 0.689707,
+                "text": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money."
+              },
+              {
+                "vector_id": 52259,
+                "chunk_id": "416778_review_para_24",
+                "laptop_id": 416778,
+                "chunk_type": "review_para_24",
+                "score": 0.686447,
+                "text": "The HP Pavilion Gaming 16 is a gaming laptop with a very good price-to-performance ratio.\n\nUsers will have to make do with relatively poor multi-core performance, because the Core i5-10300H has only four cores. When it comes to the ports, the Pavilion Gaming 16 offers the bare minimum. An additional USB Type-A port would have come in handy. Wi-Fi 6 would also be a welcome inclusion. However, our review device comes with 16 GB of RAM and an IPS display with a good contrast ratio."
+              }
+            ]
+          },
+          {
+            "laptop_id": 414789,
+            "brand": "HP",
+            "model": "HP Pavilion Gaming 16-a0023tx (183L2PA)",
+            "price_usd": 980.0,
+            "score": 0.689707,
+            "metadata": {
+              "brand": "HP",
+              "model": "HP Pavilion Gaming 16-a0023tx (183L2PA)",
+              "char_len": 213,
+              "cpu_full": "Intel Core i5-10300H (10th Gen) 2.5 Ghz Intel HM470 Express",
+              "gpu_full": "NVIDIA Geforce GTX 1650 Ti 8 GB",
+              "ram_full": "8 GB, DDR4-2933, 2933 MT/s MHz, 1 Slots",
+              "storage": "SSD: 256 GB; HDD: 1 TB, 5400 RPM, SATA",
+              "display_full": "16.1 Inches (40.89 cm), 1920 x 1080 Pixels, 137 ppi, LED, Diagonal Full HD IPS Anti-glare Micro-edge WLED-backlit 250 nits   45% NTSC Display, No",
+              "battery": "150 W AC Adapter W, 3 Cell, Li-Ion",
+              "weight_kg": 2.35,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, SD Card Reader: Yes, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money.",
+              "pros": "chic design | fast enough for Full HD gaming | 16 GB of RAM | fast SSD | long battery life | price | backlit keyboard | SD card reader",
+              "cons": "4 GB of VRAM | no Wi-Fi 6 | poor colour-space coverage | poor response times",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 16.1,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 980.0,
+              "brand_normalized": "hp",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1280.0,
+              "storage_types": [
+                "ssd",
+                "hdd"
+              ],
+              "gpu_tags": [
+                "gtx",
+                "gtx 1650"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 42415,
+                "chunk_id": "414789_summary",
+                "laptop_id": 414789,
+                "chunk_type": "summary",
+                "score": 0.689707,
+                "text": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money."
+              },
+              {
+                "vector_id": 42410,
+                "chunk_id": "414789_review_para_24",
+                "laptop_id": 414789,
+                "chunk_type": "review_para_24",
+                "score": 0.686447,
+                "text": "The HP Pavilion Gaming 16 is a gaming laptop with a very good price-to-performance ratio.\n\nUsers will have to make do with relatively poor multi-core performance, because the Core i5-10300H has only four cores. When it comes to the ports, the Pavilion Gaming 16 offers the bare minimum. An additional USB Type-A port would have come in handy. Wi-Fi 6 would also be a welcome inclusion. However, our review device comes with 16 GB of RAM and an IPS display with a good contrast ratio."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 296.035
+      }
+    },
+    {
+      "name": "pq retrieval",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "semantic",
+        "index_used": "pq",
+        "candidate_k": 20,
+        "metadata_match_count": null,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 1,
+        "filter_name": "strict",
+        "relaxed_filters": [],
+        "parsed_query": {
+          "original_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_constraints": [
+            "gaming"
+          ],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 2000.0,
+            "min_ram_gb": 16.0,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [
+              "rtx"
+            ],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.6709736585617065,
+        "similarity_threshold": 0.6275755167007446,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 416130,
+            "brand": "Asus",
+            "model": "Asus ROG Strix G15 G513QE-HN115T",
+            "price_usd": 900.0,
+            "score": 0.666984,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus ROG Strix G15 G513QE-HN115T",
+              "char_len": 179,
+              "cpu_full": "AMD Hexa Core Ryzen 5 5600H",
+              "gpu_full": "NVIDIA GeForce RTX 3050 Ti 16 GB",
+              "ram_full": "16 GB, DDR4-3200, 3200 MT/s MHz, 2 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "15.6 Inches (39.62 cm), 1920 x 1080 Pixels, 141 ppi, Full HD IPS LED Backlit   Anti-Glare Display (250 nits Brightness   62.5% RGB), No",
+              "battery": "200 W AC Adapter W, 4 Cell, Li-Ion",
+              "weight_kg": 2.1,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, USB-C: 1, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 3050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 49249,
+                "chunk_id": "416130_spec",
+                "laptop_id": 416130,
+                "chunk_type": "spec",
+                "score": 0.666984,
+                "text": "Asus Asus ROG Strix G15 G513QE-HN115T laptop. CPU: AMD Hexa Core Ryzen 5 5600H. GPU: NVIDIA GeForce RTX 3050 Ti 16 GB. 16 GB RAM, 512 GB storage. IPS LED screen. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 346011,
+            "brand": "HP",
+            "model": "HP Victus 16 (2024)",
+            "price_usd": 1740.0,
+            "score": 0.665588,
+            "metadata": {
+              "brand": "HP",
+              "model": "HP Victus 16 (2024)",
+              "char_len": 430,
+              "cpu_full": "Intel Core i7-14700HX 20c/28t, 8 x 5.5 GHz Intel Raptor Cove P-Core, 12 x 3.9 GHz Intel Gracemont E-Core, 130 W PL2 / Short Burst, 130 W PL1 / Sustained, Raptor Lake-HX Refresh",
+              "gpu_full": "NVIDIA GeForce RTX 4060 Laptop GPU - 8 GB VRAM, Core: 2250 MHz, RAM: 2000 MHz, 120 W TDP, GDDR6, 31.0.15.5222, Optimus",
+              "ram_full": "16 GB , DDR5-5600, Dual-Channel mode, two memory slots (both in use)",
+              "storage": "Kioxia XG8 KXG80ZNV512G , 512 GB , PCIe 4, M.2-2280, 415 GB free",
+              "display_full": "16.10 inch 16:9, 1920 x 1080 pixel 137 PPI, Chi Mei CMN163E, IPS, glossy: no, 144 Hz",
+              "battery": "83 Wh, 6880 mAh Lithium-Polymer",
+              "weight_kg": 2.367,
+              "os": "windows",
+              "connectivity": "4 USB 3.0 / 3.1 Gen1, USB-C Power Delivery (PD), 1 HDMI, 1 DisplayPort, Audio Connections: Audiokombo, TPM 2.0 | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Realtek RTL8852BE (b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.3",
+              "summary": "We have tested the HP Victus 16 (2024) with a Core i7-14700HX, GeForce RTX 4060 and a FHD display (144 Hz). How does the 16.1-inch gaming laptop compare to the competition?",
+              "pros": "matte FHD display (144 Hz) | two SSD slots (PCIe 4, M.2-2280) | RAM can be swapped out/expanded | Power Delivery | very good battery life | can run quietly | undervolting via software",
+              "cons": "display with only low color space coverage | loud under load | no Thunderbolt 4/USB 4 | no SD card reader | unstable plastic case",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.1,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1740.0,
+              "brand_normalized": "hp",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 18866,
+                "chunk_id": "346011_review_para_12",
+                "laptop_id": 346011,
+                "chunk_type": "review_para_12",
+                "score": 0.665588,
+                "text": "A viable alternative could be the Gigabyte G6X 9KG (2024) . This laptop offers comparable computing power and similarly good runtimes but instead of a 16:9 panel, it features a 16:10 one.\n\nThe HP Victus 16 (2024) can currently be purchased on Amazon for about US$1,333 . This is the variant with the Core i7-13700HX, NVIDIA GeForce RTX 4060, 64GB DDR5 RAM and a 2TB SSD.\n\nYou can also configure a custom variant via HP's website ."
+              }
+            ]
+          },
+          {
+            "laptop_id": 419105,
+            "brand": "Asus",
+            "model": "Asus Gaming V16 V3607VU-RP275WS",
+            "price_usd": 900.0,
+            "score": 0.664436,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Gaming V16 V3607VU-RP275WS",
+              "char_len": 170,
+              "cpu_full": "Intel Core 7 - 240H (Series 2) 5.2 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 4050 16 GB",
+              "ram_full": "16 GB, DDR5, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA Display, No",
+              "battery": "150 W, 3 Cell, Li-Ion",
+              "weight_kg": 1.95,
+              "os": "windows",
+              "connectivity": "HDMI: Yes (HDMI 2.1), USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 62745,
+                "chunk_id": "419105_spec",
+                "laptop_id": 419105,
+                "chunk_type": "spec",
+                "score": 0.664436,
+                "text": "Asus Asus Gaming V16 V3607VU-RP275WS laptop. CPU: Intel Core 7 - 240H (Series 2) 5.2 Ghz. GPU: NVIDIA GeForce RTX 4050 16 GB. 16 GB RAM, 512 GB storage. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 339646,
+            "brand": "Lenovo",
+            "model": "Lenovo Legion Slim 5 16APH8",
+            "price_usd": 1200.0,
+            "score": 0.663487,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo Legion Slim 5 16APH8",
+              "char_len": 225,
+              "cpu_full": "AMD Ryzen 7 7840HS 8c/16t 8 x 3.8 - 5.1 GHz, 88 W PL2 / Short Burst, 82 W PL1 / Sustained, Phoenix-HS (Zen 4)",
+              "gpu_full": "NVIDIA GeForce RTX 4060 Laptop GPU - 8 GB VRAM, Core: 2160 MHz, RAM: 2050 MHz, 100 W TDP, GDDR6, 535.98, Advanced Optimus, MUX",
+              "ram_full": "16 GB , DDR5-5600, 2x SODIMM, Dual-Channel",
+              "storage": "SK hynix PC801 HFS512GEJ9X115N , 512 GB",
+              "display_full": "16.00 inch 16:10, 2560 x 1600 pixel 189 PPI, BOE NJ NE160QDM-NYC, IPS, glossy: no, 165 Hz",
+              "battery": "80 Wh Lithium-Polymer",
+              "weight_kg": 2.357,
+              "os": "windows",
+              "connectivity": "4 USB 3.1 Gen2, USB-C Power Delivery (PD), 1 HDMI, 2 DisplayPort, Audio Connections: 3.5 mm headset, Card Reader: SD | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), MediaTek Wi-Fi 6E MT7922 160MHz Wireless LAN Card (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/ Wi-Fi 6E 6 GHz), Bluetooth 5.2",
+              "summary": "The Legion Slim 5 16 is one of the best-looking gaming laptops in the low US$1000 price range and it includes a fantastic 165 Hz 1600p IPS display to boot. Unfortunately, some issues may be holding back its RTX 4060 graphics.",
+              "pros": "excellent IPS display; 165 Hz, 100% sRGB, 3 ms response times | relatively cool temperatures when gaming | great Zen 4 CPU performance | respectable battery life | sleeker chassis design",
+              "cons": "RTX 4060 SKU is thicker than the RTX 4050 SKU | underperforming GeForce RTX 4060 | hinges could be more rigid | no USB4 support",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 2560.0,
+              "display_resolution_height": 1600.0,
+              "price_usd": 1200.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 16535,
+                "chunk_id": "339646_summary",
+                "laptop_id": 339646,
+                "chunk_type": "summary",
+                "score": 0.663487,
+                "text": "The Legion Slim 5 16 is one of the best-looking gaming laptops in the low US$1000 price range and it includes a fantastic 165 Hz 1600p IPS display to boot. Unfortunately, some issues may be holding back its RTX 4060 graphics."
+              }
+            ]
+          },
+          {
+            "laptop_id": 411482,
+            "brand": "Asus",
+            "model": "Asus ROG Strix G15 G513QM-HF404TS",
+            "price_usd": 1510.0,
+            "score": 0.663224,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus ROG Strix G15 G513QM-HF404TS",
+              "char_len": 184,
+              "cpu_full": "AMD Octa Core Ryzen 9 5900HX 3.3 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 3060 16 GB",
+              "ram_full": "16 GB, DDR4-3200, 3200 MT/s MHz, 2 Slots",
+              "storage": "SSD: 1 TB, M.2",
+              "display_full": "15.6 Inches (39.62 cm), 1920 x 1080 Pixels, 141 ppi, Full HD LED Backlit   Anti-Glare IPS Display (3ms Response Time   300nits Brightness   1:1000 Contrast   72% NTSC Color Gamut   100% SRGB), No",
+              "battery": "240 W AC Adapter W, 4 Cell, Li-Ion",
+              "weight_kg": 2.3,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, USB-C: 1, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": null,
+              "pros": null,
+              "cons": null,
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1510.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1024.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 3060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 25151,
+                "chunk_id": "411482_spec",
+                "laptop_id": 411482,
+                "chunk_type": "spec",
+                "score": 0.663224,
+                "text": "Asus Asus ROG Strix G15 G513QM-HF404TS laptop. CPU: AMD Octa Core Ryzen 9 5900HX 3.3 Ghz. GPU: NVIDIA GeForce RTX 3060 16 GB. 16 GB RAM, None GB storage. IPS screen. Price: 1510.0 USD."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 152.637
+      }
+    },
+    {
+      "name": "ivf_pq retrieval",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "semantic",
+        "index_used": "ivf_pq",
+        "candidate_k": 20,
+        "metadata_match_count": null,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 1,
+        "filter_name": "strict",
+        "relaxed_filters": [],
+        "parsed_query": {
+          "original_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_constraints": [
+            "gaming"
+          ],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 2000.0,
+            "min_ram_gb": 16.0,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [
+              "rtx"
+            ],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.6921001076698303,
+        "similarity_threshold": 0.655543327331543,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 339646,
+            "brand": "Lenovo",
+            "model": "Lenovo Legion Slim 5 16APH8",
+            "price_usd": 1200.0,
+            "score": 0.687802,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo Legion Slim 5 16APH8",
+              "char_len": 225,
+              "cpu_full": "AMD Ryzen 7 7840HS 8c/16t 8 x 3.8 - 5.1 GHz, 88 W PL2 / Short Burst, 82 W PL1 / Sustained, Phoenix-HS (Zen 4)",
+              "gpu_full": "NVIDIA GeForce RTX 4060 Laptop GPU - 8 GB VRAM, Core: 2160 MHz, RAM: 2050 MHz, 100 W TDP, GDDR6, 535.98, Advanced Optimus, MUX",
+              "ram_full": "16 GB , DDR5-5600, 2x SODIMM, Dual-Channel",
+              "storage": "SK hynix PC801 HFS512GEJ9X115N , 512 GB",
+              "display_full": "16.00 inch 16:10, 2560 x 1600 pixel 189 PPI, BOE NJ NE160QDM-NYC, IPS, glossy: no, 165 Hz",
+              "battery": "80 Wh Lithium-Polymer",
+              "weight_kg": 2.357,
+              "os": "windows",
+              "connectivity": "4 USB 3.1 Gen2, USB-C Power Delivery (PD), 1 HDMI, 2 DisplayPort, Audio Connections: 3.5 mm headset, Card Reader: SD | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), MediaTek Wi-Fi 6E MT7922 160MHz Wireless LAN Card (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/ Wi-Fi 6E 6 GHz), Bluetooth 5.2",
+              "summary": "The Legion Slim 5 16 is one of the best-looking gaming laptops in the low US$1000 price range and it includes a fantastic 165 Hz 1600p IPS display to boot. Unfortunately, some issues may be holding back its RTX 4060 graphics.",
+              "pros": "excellent IPS display; 165 Hz, 100% sRGB, 3 ms response times | relatively cool temperatures when gaming | great Zen 4 CPU performance | respectable battery life | sleeker chassis design",
+              "cons": "RTX 4060 SKU is thicker than the RTX 4050 SKU | underperforming GeForce RTX 4060 | hinges could be more rigid | no USB4 support",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 2560.0,
+              "display_resolution_height": 1600.0,
+              "price_usd": 1200.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 16535,
+                "chunk_id": "339646_summary",
+                "laptop_id": 339646,
+                "chunk_type": "summary",
+                "score": 0.687802,
+                "text": "The Legion Slim 5 16 is one of the best-looking gaming laptops in the low US$1000 price range and it includes a fantastic 165 Hz 1600p IPS display to boot. Unfortunately, some issues may be holding back its RTX 4060 graphics."
+              }
+            ]
+          },
+          {
+            "laptop_id": 419105,
+            "brand": "Asus",
+            "model": "Asus Gaming V16 V3607VU-RP275WS",
+            "price_usd": 900.0,
+            "score": 0.681379,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Gaming V16 V3607VU-RP275WS",
+              "char_len": 170,
+              "cpu_full": "Intel Core 7 - 240H (Series 2) 5.2 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 4050 16 GB",
+              "ram_full": "16 GB, DDR5, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA Display, No",
+              "battery": "150 W, 3 Cell, Li-Ion",
+              "weight_kg": 1.95,
+              "os": "windows",
+              "connectivity": "HDMI: Yes (HDMI 2.1), USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 62745,
+                "chunk_id": "419105_spec",
+                "laptop_id": 419105,
+                "chunk_type": "spec",
+                "score": 0.681379,
+                "text": "Asus Asus Gaming V16 V3607VU-RP275WS laptop. CPU: Intel Core 7 - 240H (Series 2) 5.2 Ghz. GPU: NVIDIA GeForce RTX 4050 16 GB. 16 GB RAM, 512 GB storage. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 412496,
+            "brand": "Lenovo",
+            "model": "Lenovo Ideapad Gaming 3 (82K101B7IN)",
+            "price_usd": 705.0,
+            "score": 0.671569,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo Ideapad Gaming 3 (82K101B7IN)",
+              "char_len": 555,
+              "cpu_full": "Intel Core i5-11320H (11th Gen) 3.3 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 3050 16 GB",
+              "ram_full": "16 GB, DDR4-3200, 3200 MT/s MHz, 2 Slots",
+              "storage": "SSD: 256 GB; HDD: 1 TB",
+              "display_full": "15.6 Inches (39.62 cm), 1920 x 1080 Pixels, 141 ppi, Full HD   IPS   250nits Anti-glare   Refresh Rate: 120 Hz   45% NTSC   DC dimmer, No",
+              "battery": "170 W, Li-Ion",
+              "weight_kg": 2.25,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB-C: 1, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We test the Lenovo IdeaPad Gaming 3 configured with a Core i5-12500H, GeForce RTX 3050 Ti, and 165-Hz panel.",
+              "pros": "good and stable performance development | impressive 165-Hz display",
+              "cons": "mediocre quality and workmanship of the case | single-channel RAM",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 705.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1280.0,
+              "storage_types": [
+                "ssd",
+                "hdd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 3050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 31333,
+                "chunk_id": "412496_review_para_0",
+                "laptop_id": 412496,
+                "chunk_type": "review_para_0",
+                "score": 0.671569,
+                "text": "Although various gaming laptops are available in the price range around 1,000 Euros (~$978), most of those forego a display with a decent brightness and solid color space coverage. However, from time to time we can find a positive exception such as the IdeaPad Gaming 3 15IAH7 we tested, which offers a Core i5-12500H , a GeForce RTX 3050 Ti , 16 GB of DDR4 RAM (unfortunately only in single-channel mode), and a 512 GB NVMe SSD. The 15.6-inch IPS screen has a refresh rate of 165 Hz, promising good response times, and a resolution of 1920 x 1080 pixels."
+              }
+            ]
+          },
+          {
+            "laptop_id": 412487,
+            "brand": "Lenovo",
+            "model": "Lenovo Ideapad Gaming 3 15ACH6 (82K201RRIN)",
+            "price_usd": 635.0,
+            "score": 0.671569,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo Ideapad Gaming 3 15ACH6 (82K201RRIN)",
+              "char_len": 555,
+              "cpu_full": "AMD Hexa Core Ryzen 5 5600H 4.2 Ghz NVIDIA",
+              "gpu_full": "NVIDIA GeForce RTX 3050 8 GB",
+              "ram_full": "DDR4-3200, 3200 MT/s MHz, 1 Slots",
+              "storage": "SSD: 512 GB",
+              "display_full": "15.6 Inches (39.62 cm), 1920 x 1080 Pixels, 141 ppi, Full HD Anti-glare Display",
+              "battery": "45 W, 3 Cell, Li-Po",
+              "weight_kg": 2.25,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB-C: 1, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We test the Lenovo IdeaPad Gaming 3 configured with a Core i5-12500H, GeForce RTX 3050 Ti, and 165-Hz panel.",
+              "pros": "good and stable performance development | impressive 165-Hz display",
+              "cons": "mediocre quality and workmanship of the case | single-channel RAM",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 635.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 3050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 31283,
+                "chunk_id": "412487_review_para_0",
+                "laptop_id": 412487,
+                "chunk_type": "review_para_0",
+                "score": 0.671569,
+                "text": "Although various gaming laptops are available in the price range around 1,000 Euros (~$978), most of those forego a display with a decent brightness and solid color space coverage. However, from time to time we can find a positive exception such as the IdeaPad Gaming 3 15IAH7 we tested, which offers a Core i5-12500H , a GeForce RTX 3050 Ti , 16 GB of DDR4 RAM (unfortunately only in single-channel mode), and a 512 GB NVMe SSD. The 15.6-inch IPS screen has a refresh rate of 165 Hz, promising good response times, and a resolution of 1920 x 1080 pixels."
+              }
+            ]
+          },
+          {
+            "laptop_id": 412439,
+            "brand": "Lenovo",
+            "model": "Lenovo IdeaPad Gaming 3 15ACH6 (82K2029CIN)",
+            "price_usd": 510.0,
+            "score": 0.671569,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo IdeaPad Gaming 3 15ACH6 (82K2029CIN)",
+              "char_len": 555,
+              "cpu_full": "AMD Quad Core Ryzen 5 - 5500H 3.4 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 2050 16 GB",
+              "ram_full": "16 GB, DDR4, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "15.6 Inches (39.62 cm), 1920 x 1080 Pixels, 141 ppi, FHD (1920x1080) IPS Technology 60 Hz Refresh Rate Brightness: 250 Nits Anti-Glare 45pct. NTSC, No",
+              "battery": "Li-Ion",
+              "weight_kg": 2.25,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB-C: 1, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Lenovo IdeaPad Gaming 3 configured with a Core i5-12500H, GeForce RTX 3050 Ti, and 165-Hz panel.",
+              "pros": "good and stable performance development | impressive 165-Hz display",
+              "cons": "mediocre quality and workmanship of the case | single-channel RAM",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 510.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 2050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 31100,
+                "chunk_id": "412439_review_para_0",
+                "laptop_id": 412439,
+                "chunk_type": "review_para_0",
+                "score": 0.671569,
+                "text": "Although various gaming laptops are available in the price range around 1,000 Euros (~$978), most of those forego a display with a decent brightness and solid color space coverage. However, from time to time we can find a positive exception such as the IdeaPad Gaming 3 15IAH7 we tested, which offers a Core i5-12500H , a GeForce RTX 3050 Ti , 16 GB of DDR4 RAM (unfortunately only in single-channel mode), and a 512 GB NVMe SSD. The 15.6-inch IPS screen has a refresh rate of 165 Hz, promising good response times, and a resolution of 1920 x 1080 pixels."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 111.868
+      }
+    },
+    {
+      "name": "hnsw retrieval",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "semantic",
+        "index_used": "hnsw",
+        "candidate_k": 20,
+        "metadata_match_count": null,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 2,
+        "filter_name": "core_requirements",
+        "relaxed_filters": [
+          "gpu_tags",
+          "min_ram_gb"
+        ],
+        "parsed_query": {
+          "original_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_query": "Gaming laptop under 2000 USD with 16 GB RAM and RTX graphics",
+          "semantic_constraints": [
+            "gaming"
+          ],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 2000.0,
+            "min_ram_gb": 16.0,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [
+              "rtx"
+            ],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.709858775138855,
+        "similarity_threshold": 0.6689083576202393,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 318636,
+            "brand": "Gateway",
+            "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+            "price_usd": 1000.0,
+            "score": 0.707362,
+            "metadata": {
+              "brand": "Gateway",
+              "model": "Gateway Creator Series 15.6 GWTN156-3BK",
+              "char_len": 212,
+              "cpu_full": "Intel Core i5-10300H 4c/8t 4 x 2.5 - 4.5 GHz, Comet Lake-H",
+              "gpu_full": "NVIDIA GeForce RTX 2060 Mobile - 6 GB VRAM, Core: 1005 MHz, RAM: 1375 MHz, GDDR6, 451.67, Optimus",
+              "ram_full": "8 GB , Micron DDR4-3200, 21-21-21-47, Single-Channel",
+              "storage": "Phison PS5013 PM8256GPTCB4B8TF , 256 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FHM-NX1, IPS, glossy: no, 120 Hz",
+              "battery": "46.74 Wh Lithium-Polymer",
+              "weight_kg": 1.972,
+              "os": "windows",
+              "connectivity": "1 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 USB 3.1 Gen2, 1 HDMI, 2 DisplayPort, Audio Connections: 3.5 mm micriphone, 3.5 mm earphones, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Intel Wi-Fi 6 AX201 (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience.",
+              "pros": "inexpensive especially for a GeForce RTX 2060 laptop | relatively small and lightweight | 2x SODIMM, 2x M.2 2280 slots | 2x Mini-DisplayPort ports | RGB keyboard lighting | 1080p IPS panel",
+              "cons": "ships with just 8 GB of single-channel RAM and 256 GB SSD | response times, gamut, and contrast are average at best | upgrading RAM or storage will void warranty | no Thunderbolt 3 or DisplayPort-over-USB | suboptimal webcam positioning | loud fans when gaming | slow SD card reader",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1000.0,
+              "brand_normalized": "gateway",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 256.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx",
+                "rtx 2060"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 7091,
+                "chunk_id": "318636_summary",
+                "laptop_id": 318636,
+                "chunk_type": "summary",
+                "score": 0.707362,
+                "text": "It's one of the cheapest gaming laptops you can find with the GeForce RTX 2060 at the moment, but don't hop onboard just yet. The 8 GB of single-channel RAM and small 256 GB NVMe SSD might hinder your experience."
+              }
+            ]
+          },
+          {
+            "laptop_id": 419105,
+            "brand": "Asus",
+            "model": "Asus Gaming V16 V3607VU-RP275WS",
+            "price_usd": 900.0,
+            "score": 0.695615,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Gaming V16 V3607VU-RP275WS",
+              "char_len": 170,
+              "cpu_full": "Intel Core 7 - 240H (Series 2) 5.2 Ghz",
+              "gpu_full": "NVIDIA GeForce RTX 4050 16 GB",
+              "ram_full": "16 GB, DDR5, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA Display, No",
+              "battery": "150 W, 3 Cell, Li-Ion",
+              "weight_kg": 1.95,
+              "os": "windows",
+              "connectivity": "HDMI: Yes (HDMI 2.1), USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We test the Asus RoG Zephyrus S GX531GM equipped with Core i7-8750H CPU, GeForce GTX 1060 GPU, SSD and Full-HD screen. How does the 15.6-inch notebook perform compared to the competition?",
+              "pros": "Matte IPS display | Full-HD resolution | 144-Hz panel | NVMe SSD | Compact metal case | Moderate weight | Capability of switching between dedicated and integrated GPU",
+              "cons": "Max. 24 GB of RAM | Limited connectivity | Limited upgradability | Limited maintainability | Poor battery life | Coil whine | No current graphic drivers",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 900.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "rtx",
+                "rtx 4050"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 62745,
+                "chunk_id": "419105_spec",
+                "laptop_id": 419105,
+                "chunk_type": "spec",
+                "score": 0.695615,
+                "text": "Asus Asus Gaming V16 V3607VU-RP275WS laptop. CPU: Intel Core 7 - 240H (Series 2) 5.2 Ghz. GPU: NVIDIA GeForce RTX 4050 16 GB. 16 GB RAM, 512 GB storage. Price: 900.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 358353,
+            "brand": "Lenovo",
+            "model": "Lenovo ThinkPad P1 Gen 8",
+            "price_usd": 2000.0,
+            "score": 0.692859,
+            "metadata": {
+              "brand": "Lenovo",
+              "model": "Lenovo ThinkPad P1 Gen 8",
+              "char_len": 261,
+              "cpu_full": "Intel Core Ultra 7 255H 16c/16t, 6 x 5.1 GHz Intel Lion Cove P-Core, 8 x 4.4 GHz Intel Skymont E-Core, 2 x 2.5 GHz Intel Crestmont E-Core, 120 W PL2 / Short Burst, 101 W PL1 / Sustained, Arrow Lake-H",
+              "gpu_full": "NVIDIA RTX PRO 2000 Blackwell Generation Laptop - 8 GB VRAM, Core: 2070 MHz, RAM: 1500 MHz, 75 W TDP, GDDR7, 581.80, Optimus",
+              "ram_full": "32 GB , Dual-Channel, LPCAMM2, One slot",
+              "storage": "Samsung PM9E1 1 TB MZVLC1T0HFLU , 1024 GB",
+              "display_full": "16.00 inch 16:10, 3200 x 2000 pixel 236 PPI, Capacitive, Samsung ATNA60KA02-0, Tandem OLED, glossy: no, HDR, 120 Hz",
+              "battery": "90 Wh Lithium-Polymer",
+              "weight_kg": 1.909,
+              "os": "windows",
+              "connectivity": "4 USB 3.1 Gen2, 2 USB4 40 Gbps, 1 Thunderbolt 4, 2 Thunderbolt 5, USB-C Power Delivery (PD), 1 HDMI, 3 DisplayPort, 1 Kensington Lock, Audio Connections: 3.5 mm combo, Card Reader: SD, 1 Fingerprint Reader | Intel BE201 320MHz (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/ Wi-Fi 6E 6 GHz be = Wi-Fi 7), Bluetooth 5.4",
+              "summary": "The ThinkPad P1 Gen 8 may look the same as the previous generation model, but the new tandem OLED display option can improve the HDR viewing experience tremendously for those who value it.",
+              "pros": "thin and lightweight for a 16-inch workstation | supports up to two M.2 2280 SSDs | fast LPCAMM2 RAM up to 64 GB | Thunderbolt 5 compatible | relatively quiet",
+              "cons": "matte tandem OLED can appear slightly grainy up close | one-year base warranty instead of three years | shorter battery life with OLED | fingerprint-loving surfaces | no ECC RAM",
+              "ram_capacity_gb": 32.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 3200.0,
+              "display_resolution_height": 2000.0,
+              "price_usd": 2000.0,
+              "brand_normalized": "lenovo",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 2048.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "rtx"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 22185,
+                "chunk_id": "358353_spec",
+                "laptop_id": 358353,
+                "chunk_type": "spec",
+                "score": 0.692859,
+                "text": "Lenovo Lenovo ThinkPad P1 Gen 8 laptop. CPU: Intel Core Ultra 7 255H (16 cores / 16 threads). GPU: NVIDIA RTX PRO 2000 Blackwell Generation Laptop - 8 GB VRAM (discrete). 32 GB RAM, 1024 GB storage. 16-inch, TN screen, 3200x2000, 120 Hz, HDR. Price: 2000.0 USD."
+              }
+            ]
+          },
+          {
+            "laptop_id": 316710,
+            "brand": "Dell",
+            "model": "Dell G5 15 SE 5505 P89F",
+            "price_usd": 1200.0,
+            "score": 0.690368,
+            "metadata": {
+              "brand": "Dell",
+              "model": "Dell G5 15 SE 5505 P89F",
+              "char_len": 225,
+              "cpu_full": "AMD Ryzen 7 4800H 8c/16t 8 x 2.9 - 4.2 GHz, Renoir-H (Zen 2)",
+              "gpu_full": "AMD Radeon RX 5600M - 6 GB VRAM, Core: 1750 MHz, RAM: 1500 MHz, GDDR6, 27.20.1010.1",
+              "ram_full": "16 GB , Sk Hynix DDR4-3200, 22-22-22-52, Dual-Channel",
+              "storage": "Samsung PM991 MZ9LQ512HALU , 512 GB",
+              "display_full": "15.60 inch 16:9, 1920 x 1080 pixel 141 PPI, BOE NV156FH, WVA, BOE084A, Dell P/N: F5T P, glossy: no, 144 Hz",
+              "battery": "51 Wh Lithium-Polymer",
+              "weight_kg": 2.428,
+              "os": "windows",
+              "connectivity": "2 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 HDMI, 2 DisplayPort, 1 Kensington Lock, Audio Connections: 3.5 mm combo, Card Reader: SD reader | Realtek RTL8168/8111 Gigabit-LAN (10/100/1000MBit/s), Killer Wi-Fi 6 AX1650x Wireless Network Adapter (200NGW) (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.1",
+              "summary": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive.",
+              "pros": "easy serviceability; 2x SODIMM, 2x M.2 2280 | minimal ghosting, high refresh rate | impressive processor performance | quad-zone RGB keyboard lighting | adaptive sync on 144 Hz panel | high performance-per-dollar | decent battery life",
+              "cons": "very warm CPU and GPU temperatures | PWM on almost all brightness levels | very warm surface temperatures | no adaptive sync on 60 Hz panel | fingerprint-loving clickpad keys | uneven backlight bleeding | slow SD card reader | spongy clickpad | loud fan noise",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 15.6,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1200.0,
+              "brand_normalized": "dell",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [],
+              "gpu_tags": [
+                "radeon",
+                "rx",
+                "rx 5600m"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 6045,
+                "chunk_id": "316710_summary",
+                "laptop_id": 316710,
+                "chunk_type": "summary",
+                "score": 0.690368,
+                "text": "It's not the quietest or best-looking gaming laptop out there, but $860 USD for GeForce RTX 2060-level graphics and Core i7-like performance is hard to argue with. The value of the all-AMD G5 15 Special Edition is impressive."
+              }
+            ]
+          },
+          {
+            "laptop_id": 416778,
+            "brand": "HP",
+            "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+            "price_usd": 1100.0,
+            "score": 0.689707,
+            "metadata": {
+              "brand": "HP",
+              "model": "HP Pavilion Gaming 16-a0030TX (18J95PA)",
+              "char_len": 213,
+              "cpu_full": "Intel Core i7-10750H (10th Gen) 2.6 Ghz Intel HM470",
+              "gpu_full": "NVIDIA Geforce GTX 1650 Ti 16 GB",
+              "ram_full": "16 GB, DDR4-2933, 2933 MT/s MHz, 2 Slots",
+              "storage": "SSD: 256 GB; HDD: 1 TB, 5400 RPM, SATA",
+              "display_full": "16.1 Inches (40.89 cm), 1920 x 1080 Pixels, 137 ppi, LED, Diagonal Full HD   IPS   anti-glare   micro-edge WLED-backlit   250 nits   45% NTSC Display, No",
+              "battery": "200 W AC Adapter W, 3 Cell, Li-Ion",
+              "weight_kg": 2.35,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 3.0: 2, SD Card Reader: Yes, Ethernet: 1, Headphone Jack: Yes, Microphone Jack: Yes",
+              "summary": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money.",
+              "pros": "chic design | fast enough for Full HD gaming | 16 GB of RAM | fast SSD | long battery life | price | backlit keyboard | SD card reader",
+              "cons": "4 GB of VRAM | no Wi-Fi 6 | poor colour-space coverage | poor response times",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.1,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1080.0,
+              "price_usd": 1100.0,
+              "brand_normalized": "hp",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1280.0,
+              "storage_types": [
+                "ssd",
+                "hdd"
+              ],
+              "gpu_tags": [
+                "gtx",
+                "gtx 1650"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 52266,
+                "chunk_id": "416778_summary",
+                "laptop_id": 416778,
+                "chunk_type": "summary",
+                "score": 0.689707,
+                "text": "We review the HP Pavilion Gaming 16 with an Intel Core i5-10300H and an NVIDIA GeForce GTX 1650 Ti. The 16.1-inch device is light, slim and offers a good level of performance for a very reasonable amount of money."
+              },
+              {
+                "vector_id": 52259,
+                "chunk_id": "416778_review_para_24",
+                "laptop_id": 416778,
+                "chunk_type": "review_para_24",
+                "score": 0.686447,
+                "text": "The HP Pavilion Gaming 16 is a gaming laptop with a very good price-to-performance ratio.\n\nUsers will have to make do with relatively poor multi-core performance, because the Core i5-10300H has only four cores. When it comes to the ports, the Pavilion Gaming 16 offers the bare minimum. An additional USB Type-A port would have come in handy. Wi-Fi 6 would also be a welcome inclusion. However, our review device comes with 16 GB of RAM and an IPS display with a good contrast ratio."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 230.627
+      }
+    },
+    {
+      "name": "locked UI budget filter",
+      "status": "passed",
+      "details": {
+        "status": "ok",
+        "message": null,
+        "search_mode": "hybrid",
+        "index_used": "ivf_flat",
+        "candidate_k": 20,
+        "metadata_match_count": 34496,
+        "requested_top_k": 5,
+        "matched_count": 5,
+        "filter_level": 1,
+        "filter_name": "strict",
+        "relaxed_filters": [],
+        "parsed_query": {
+          "original_query": "Affordable laptop for university work",
+          "semantic_query": "Affordable laptop for university work",
+          "semantic_constraints": [],
+          "filters": {
+            "min_price_usd": null,
+            "max_price_usd": 1000.0,
+            "min_ram_gb": null,
+            "min_storage_gb": null,
+            "max_weight_kg": null,
+            "brands": [],
+            "gpu_tags": [],
+            "excluded_brands": [],
+            "excluded_gpu_tags": [],
+            "storage_types": [],
+            "operating_systems": []
+          },
+          "locked_fields": [
+            "max_price_usd"
+          ],
+          "confidence": 0.95,
+          "warnings": []
+        },
+        "top_similarity": 0.7231998443603516,
+        "similarity_threshold": 0.6689083576202393,
+        "outlier": false,
+        "recommendations": [
+          {
+            "laptop_id": 415976,
+            "brand": "Asus",
+            "model": "Asus Vivobook 16 M1605YA-MB531WS",
+            "price_usd": 430.0,
+            "score": 0.7232,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus Vivobook 16 M1605YA-MB531WS",
+              "char_len": 90,
+              "cpu_full": "AMD Hexa Core Ryzen 5 - 7530U 2.0 Ghz",
+              "gpu_full": "AMD Radeon 8 GB",
+              "ram_full": "8 GB, DDR4, 1 Slots",
+              "storage": "SSD: 1 TB",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA   16:10 Aspect Ratio   LED Backlit   IPS-Level Panel   60Hz Refresh Rate   300nits   45% NTSC Color Gamut   Anti-Glare Display, No",
+              "battery": "65 W, Li-Ion",
+              "weight_kg": 1.88,
+              "os": "windows",
+              "connectivity": "USB 2.0: 1, USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We have tested the Asus VivoBook 18 with the Ryzen 7 260, 16 GB RAM and a 512-GB SSD.",
+              "pros": "affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter",
+              "cons": "RAM is soldered on | can get very loud | unstable touchpad | only one M.2 slot | no USB 4",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 430.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 1024.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "radeon"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 48541,
+                "chunk_id": "415976_pros",
+                "laptop_id": 415976,
+                "chunk_type": "pros",
+                "score": 0.7232,
+                "text": "Pros: affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter"
+              }
+            ]
+          },
+          {
+            "laptop_id": 352639,
+            "brand": "Asus",
+            "model": "Asus VivoBook 18 M1807HA",
+            "price_usd": 930.0,
+            "score": 0.7232,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus VivoBook 18 M1807HA",
+              "char_len": 90,
+              "cpu_full": "AMD Ryzen 7 260 8c/16t, 8 x 5.1 GHz AMD Zen 4, 60 W PL2 / Short Burst, 54 W PL1 / Sustained, Hawk Point-HS (Zen 4)",
+              "gpu_full": "AMD Radeon 780M - 512 MB VRAM, DDR5, Adrenalin 25.3.1",
+              "ram_full": "16 GB , soldered, one SO-DIMM slot (empty)",
+              "storage": "Micron 2500 MTFDKBA512QGN, 512 GB , NVMe-SSD, one M.2 2280 slot (in use)",
+              "display_full": "18.40 inch 16:10, 1920 x 1200 pixel 123 PPI, BOE NE180WUM-NY3, IPS, glossy: no, 144 Hz",
+              "battery": "70 Wh Lithium-Ion, 4 Cells",
+              "weight_kg": 2.63,
+              "os": "windows",
+              "connectivity": "4 USB 3.0 / 3.1 Gen1, USB-C Power Delivery (PD), 1 HDMI, 2 DisplayPort, Audio Connections: Combined (Headset/Mic) | Realtek RTL8852BE (b/g/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.3",
+              "summary": "We have tested the Asus VivoBook 18 with the Ryzen 7 260, 16 GB RAM and a 512-GB SSD.",
+              "pros": "affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter",
+              "cons": "RAM is soldered on | can get very loud | unstable touchpad | only one M.2 slot | no USB 4",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 18.4,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 930.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "nvme",
+                "ssd"
+              ],
+              "gpu_tags": [
+                "radeon"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 20942,
+                "chunk_id": "352639_pros",
+                "laptop_id": 352639,
+                "chunk_type": "pros",
+                "score": 0.7232,
+                "text": "Pros: affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter"
+              }
+            ]
+          },
+          {
+            "laptop_id": 412942,
+            "brand": "Asus",
+            "model": "Asus VivoBook 16 M1605YA-MB542WS",
+            "price_usd": 450.0,
+            "score": 0.7232,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus VivoBook 16 M1605YA-MB542WS",
+              "char_len": 90,
+              "cpu_full": "AMD Hexa Core Ryzen 5 - 7530U 2.0 Ghz",
+              "gpu_full": "AMD Radeon 16 GB",
+              "ram_full": "16 GB, DDR4, 1 Slots",
+              "storage": "SSD: 512 GB, M.2",
+              "display_full": "16 Inches (40.64 cm), 1920 x 1200 Pixels, 142 ppi, WUXGA   LED Backlit   IPS-Level Panel   45% NTSC Color Gamut   Anti-Glare Display, No",
+              "battery": "3 Cell, Li-Ion",
+              "weight_kg": 1.88,
+              "os": "windows",
+              "connectivity": "HDMI: 1, USB 2.0: 1, USB-C: 1, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "We have tested the Asus VivoBook 18 with the Ryzen 7 260, 16 GB RAM and a 512-GB SSD.",
+              "pros": "affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter",
+              "cons": "RAM is soldered on | can get very loud | unstable touchpad | only one M.2 slot | no USB 4",
+              "ram_capacity_gb": 16.0,
+              "display_size_inches": 16.0,
+              "display_resolution_width": 1920.0,
+              "display_resolution_height": 1200.0,
+              "price_usd": 450.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 512.0,
+              "storage_types": [
+                "ssd"
+              ],
+              "gpu_tags": [
+                "radeon"
+              ]
+            },
+            "sources": [
+              {
+                "vector_id": 33960,
+                "chunk_id": "412942_pros",
+                "laptop_id": 412942,
+                "chunk_type": "pros",
+                "score": 0.7232,
+                "text": "Pros: affordable 18-inch laptop | slim display bezels | good battery life | webcam shutter"
+              }
+            ]
+          },
+          {
+            "laptop_id": 345734,
+            "brand": "Asus",
+            "model": "Asus BR1104CGA-N00007XA",
+            "price_usd": 440.0,
+            "score": 0.704031,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus BR1104CGA-N00007XA",
+              "char_len": 623,
+              "cpu_full": "Intel Processor N100 4c/4t, 4 x 3.4 GHz Intel Crestmont E-Core, Alder Lake-N",
+              "gpu_full": "Intel UHD Graphics 24EUs (Alder Lake-N)",
+              "ram_full": "8 GB , Micron LPDDR5-4800",
+              "storage": "Micron MT 128GBCAV2U31, 128 GB",
+              "display_full": "11.60 inch 16:9, 1366 x 768 pixel, TN, glossy: no, 60 Hz",
+              "battery": "50 Wh",
+              "weight_kg": 1.62,
+              "os": "windows",
+              "connectivity": "1 USB 2.0, 2 USB 3.0 / 3.1 Gen1, 1 USB 3.1 Gen2, USB-C Power Delivery (PD), 1 HDMI, 1 DisplayPort, 1 Kensington Lock, Audio Connections: 1 | Realtek Semiconductor RTL8168/8111 PCI-E Gigabit Ethernet NIC (10/100/1000MBit/s), Intel Wi-Fi 6 AX201 (a/b/g/h/n = Wi-Fi 4/ac = Wi-Fi 5/ax = Wi-Fi 6/), Bluetooth 5.2",
+              "summary": "Notebookcheck tests the Asus ExpertBook BR1104CGA budget educational laptop powered by Intel's N100 CPU and featuring 8 GB LPDDR5-4800 RAM, 128 GB SSD storage and 11.6-inch TN display.",
+              "pros": "Power efficient Intel N100 with decent performance per watt | Sturdy build | Good connectivity | Silent operation via passive cooling system | Long battery life (almost 14 hours) | 3-year warranty",
+              "cons": "11.6-inch TN display with 1366 x 768 resolution and 65% sRGB color gamut | Slow UFS SATA3 SSD | Slow iGPU | Very high DPC latency | No upgradability",
+              "ram_capacity_gb": 8.0,
+              "display_size_inches": 11.6,
+              "display_resolution_width": 1366.0,
+              "display_resolution_height": 768.0,
+              "price_usd": 440.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 256.0,
+              "storage_types": [],
+              "gpu_tags": []
+            },
+            "sources": [
+              {
+                "vector_id": 18775,
+                "chunk_id": "345734_review_para_15",
+                "laptop_id": 345734,
+                "chunk_type": "review_para_15",
+                "score": 0.704031,
+                "text": "Powered by the highly-efficient Intel N100 CPU, this laptop offers silent operation and is relatively cool, even though it only features a passive cooling system. The 8 GB RAM and 128 GB SSD capacities seem appropriate for the price point. Connectivity is decent with power delivery over USb-C amd speedy Wi-Fi 6 and GbE. Battery runtime almost reaches 14 hours thanks to the 50 Wh capacity. The build is on the rugged side, given the targeted educational environment.\n\nHigh CPU efficiency with silent operation and great battery life recommend the Asus ExpertBook BR1104CGA as a reliable solution for students on a budget."
+              }
+            ]
+          },
+          {
+            "laptop_id": 418535,
+            "brand": "Asus",
+            "model": "Asus 12 E210MA-GJ001W",
+            "price_usd": 210.0,
+            "score": 0.704031,
+            "metadata": {
+              "brand": "Asus",
+              "model": "Asus 12 E210MA-GJ001W",
+              "char_len": 623,
+              "cpu_full": "Intel Celeron Dual Core - N4020 1.1 Ghz",
+              "gpu_full": "Intel UHD 600 4 GB",
+              "ram_full": "4 GB, DDR4, 1 Slots",
+              "storage": "64 GB eMMC Flash, 64 GB , 49 GB free",
+              "display_full": "11.6 Inches (29.46 cm), 1366 x 768 Pixels, 135 ppi, Anti-Glare HD (1366 x 768) Display Having 16:9 Aspect Ratio 200 Nits Brightness 45% NTSC Color Gamut, No",
+              "battery": "33 W, 2 Cell, Li-Ion",
+              "weight_kg": 1.05,
+              "os": "windows",
+              "connectivity": "USB 2.0: 1, USB-C: 1, SD Card Reader: Yes, Headphone Jack: Yes, Microphone Jack: Yes, VGA: No",
+              "summary": "Notebookcheck tests the Asus ExpertBook BR1104CGA budget educational laptop powered by Intel's N100 CPU and featuring 8 GB LPDDR5-4800 RAM, 128 GB SSD storage and 11.6-inch TN display.",
+              "pros": "Power efficient Intel N100 with decent performance per watt | Sturdy build | Good connectivity | Silent operation via passive cooling system | Long battery life (almost 14 hours) | 3-year warranty",
+              "cons": "11.6-inch TN display with 1366 x 768 resolution and 65% sRGB color gamut | Slow UFS SATA3 SSD | Slow iGPU | Very high DPC latency | No upgradability",
+              "ram_capacity_gb": 4.0,
+              "display_size_inches": 11.6,
+              "display_resolution_width": 1366.0,
+              "display_resolution_height": 768.0,
+              "price_usd": 210.0,
+              "brand_normalized": "asus",
+              "os_normalized": "windows",
+              "storage_capacity_gb": 128.0,
+              "storage_types": [],
+              "gpu_tags": []
+            },
+            "sources": [
+              {
+                "vector_id": 60220,
+                "chunk_id": "418535_review_para_15",
+                "laptop_id": 418535,
+                "chunk_type": "review_para_15",
+                "score": 0.704031,
+                "text": "Powered by the highly-efficient Intel N100 CPU, this laptop offers silent operation and is relatively cool, even though it only features a passive cooling system. The 8 GB RAM and 128 GB SSD capacities seem appropriate for the price point. Connectivity is decent with power delivery over USb-C amd speedy Wi-Fi 6 and GbE. Battery runtime almost reaches 14 hours thanks to the 50 Wh capacity. The build is on the rugged side, given the targeted educational environment.\n\nHigh CPU efficiency with silent operation and great battery life recommend the Asus ExpertBook BR1104CGA as a reliable solution for students on a budget."
+              }
+            ]
+          }
+        ],
+        "retrieval_latency_ms": 558.808
+      }
+    },
+    {
+      "name": "filter-only retrieval",
+      "status": "passed",
+      "details": {
+        "search_mode": "filter_only",
+        "matched_count": 5
+      }
+    },
+    {
+      "name": "true hybrid retrieval",
+      "status": "passed",
+      "details": {
+        "search_mode": "hybrid",
+        "metadata_match_count": 34496,
+        "matched_count": 5
+      }
+    },
+    {
+      "name": "progressive metadata relaxation",
+      "status": "passed",
+      "details": {
+        "filter_level": 3,
+        "filter_name": "core_requirements",
+        "relaxed_filters": [
+          "brands",
+          "gpu_tags",
+          "min_ram_gb"
+        ]
+      }
+    },
+    {
+      "name": "negative GPU filter",
+      "status": "passed",
+      "details": {
+        "matched_count": 5
+      }
+    },
+    {
+      "name": "outlier rejection",
+      "status": "passed",
+      "details": {
+        "top_similarity": 0.4721055328845978,
+        "threshold": 0.6689083576202393
+      }
+    },
+    {
+      "name": "custom threshold",
+      "status": "passed",
+      "details": {
+        "outlier": true
+      }
+    },
+    {
+      "name": "request validation",
+      "status": "passed",
+      "details": {
+        "invalid_statuses": [
+          422,
+          422,
+          422
+        ]
+      }
+    },
+    {
+      "name": "FP-Growth insights",
+      "status": "passed",
+      "details": {
+        "returned_rules": 5
+      }
+    },
+    {
+      "name": "laptop detail lookup",
+      "status": "passed",
+      "details": {
+        "laptop_id": 415976,
+        "chunks": 9
+      }
+    },
+    {
+      "name": "grounded chat response",
+      "status": "passed",
+      "details": {
+        "provider": "retrieval_only",
+        "cache_hit": false
+      }
+    },
+    {
+      "name": "semantic cache reuse",
+      "status": "passed",
+      "details": {
+        "cache_hit": false,
+        "skipped": "LLM provider was unavailable."
+      }
+    },
+    {
+      "name": "cache statistics",
+      "status": "passed",
+      "details": {
+        "entries": 0,
+        "hits": 0,
+        "misses": 2,
+        "hit_rate": 0.0,
+        "skipped": "No response was cached after provider failure."
+      }
+    }
+  ],
+  "external_requirements": {
+    "qdrant_cloud_tested": false,
+    "groq_tested_live": false,
+    "gemini_tested_live": false,
+    "qdrant_configured": false,
+    "llm_providers_configured": [
+      "groq",
+      "gemini"
+    ],
+    "reason": "External integrations require valid endpoints/credentials and were not live-validated."
+  }
+}

@@ -1,0 +1,30 @@
+# Claude Code tool config — not part of the project deliverable
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large, regenerable notebook data artifacts (multi-hundred-MB Spark output;
+# see Backend/README.md for how to rebuild via scripts/deduplicate_chunks.py)
+Notebook/vector_db_artifacts/
+Notebook/Chunks.Perquet/
+
+# Colab evaluation run: contains live API keys pasted into a cell, and a
+# throwaway code-only zip used to sideload the private repo into Colab.
+colab_evaluation_notebook.ipynb
+colab_rebuild_notebook.ipynb
+colab_calibration_notebook.ipynb
+colab_check_backend_notebook.ipynb
+repo_code.zip
+
+# Session working directory: superseded artifact backups (multi-hundred-MB
+# FAISS indexes) and throwaway notebook snapshots — local reference only,
+# never meant to be committed.
+archive/
+
+# Locally generated retrieval indexes, Spark exports, and rebuild scratch data.
+# These include files larger than GitHub's 100 MB per-file limit.
+artifacts/
+rebuild_followup/
+vector_db_artifacts/

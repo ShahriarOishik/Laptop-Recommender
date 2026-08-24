@@ -1,0 +1,5 @@
+-r requirements.txt
+pandas>=2.2,<3
+pyarrow>=18,<24
+pyspark>=3.5,<5
+matplotlib>=3.9,<4

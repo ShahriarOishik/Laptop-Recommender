@@ -1,0 +1,15 @@
+.env
+.venv/
+local_data/
+__pycache__/
+.pytest_cache/
+*.log
+
+# Large, regenerable data artifacts (build with scripts/build_artifacts.py,
+# or host externally and set ARTIFACT_BASE_URL — see README). Small
+# reference/config outputs like calibrated_thresholds*.json and
+# index_manifest.json are kept tracked.
+artifacts/*.index
+artifacts/qdrant_records.parquet
+artifacts/vector_id_mapping.parquet
+artifacts/laptop_metadata.parquet

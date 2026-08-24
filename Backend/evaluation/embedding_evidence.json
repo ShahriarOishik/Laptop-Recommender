@@ -1,0 +1,16 @@
+{
+  "records": "D:\\CSE488 Project\\Backend\\artifacts\\qdrant_records.parquet",
+  "rows": 63998,
+  "null_embeddings": 0,
+  "dimensions": [
+    768
+  ],
+  "norm_min": 1.0,
+  "norm_max": 1.0,
+  "norm_mean": 1.0,
+  "pandas_udf_source_present": true,
+  "execution_mode": "unknown",
+  "distributed_execution_verified": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "note": "The artifact is numerically valid, but distributed pandas_udf execution is only verified when --execution-mode pandas_udf is supplied from a Linux/WSL/Colab run."
+}

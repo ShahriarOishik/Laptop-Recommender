@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+artifacts/*.parquet
+!artifacts/laptop_metadata.parquet
+artifacts/qdrant_records.parquet
+*.log

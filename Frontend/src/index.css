@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  /* One extra breakpoint below Tailwind's default `sm` (640px) — the
+     suggested-prompt grid and a few other tight layouts benefit from
+     going 2-up as soon as a phone is wide enough (~360px+), not only at
+     tablet width. */
+  --breakpoint-xs: 22rem;
+}
+
+:root {
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f1f3f6;
+  --color-border: #e4e7ec;
+  --color-text: #14161a;
+  --color-text-muted: #62687a;
+  --color-text-faint: #9aa1b2;
+  --color-accent: #4f46e5;
+  --color-accent-hover: #4338ca;
+  --color-accent-soft: #eef0ff;
+  --color-success: #16a34a;
+  --color-success-soft: #ecfdf3;
+  --color-warning: #d97706;
+  --color-warning-soft: #fffaeb;
+  --color-danger: #dc2626;
+  --color-danger-soft: #fef2f2;
+  color-scheme: light;
+}
+
+:root.dark {
+  --color-bg: #0e0f13;
+  --color-surface: #16181d;
+  --color-surface-2: #1d2027;
+  --color-border: #2a2e37;
+  --color-text: #f1f2f5;
+  --color-text-muted: #9aa1b2;
+  --color-text-faint: #6b7180;
+  --color-accent: #818cf8;
+  --color-accent-hover: #a5b0fb;
+  --color-accent-soft: #1e2035;
+  --color-success: #4ade80;
+  --color-success-soft: #0f2418;
+  --color-warning: #fbbf24;
+  --color-warning-soft: #2a2110;
+  --color-danger: #f87171;
+  --color-danger-soft: #2a1414;
+  color-scheme: dark;
+}
+
+* {
+  border-color: var(--color-border);
+  /* Disable Chromium's compositor-level elastic/rubber-band overscroll
+   * effect everywhere by default. window.scrollY can correctly read 0
+   * while this effect still visually shifts the whole page — it operates
+   * outside normal DOM scroll, so overflow/height rules alone don't stop
+   * it. Scrollable regions opt back in to a *contained* bounce below. */
+  overscroll-behavior: none;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Pin the app to the viewport instead of relying on height:100% + overflow:
+   hidden alone — those can still let a wheel/touch gesture "leak" past the
+   root once an inner scroll region bottoms out. Fixed positioning removes
+   #root from document flow entirely, so there is nothing left for the
+   outer html/body to scroll to. */
+#root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+/* Baseline focus ring for any interactive element that doesn't set its own
+   Tailwind focus-visible:ring utility. Components with an explicit ring
+   already override outline-color/box-shadow, so this only fills gaps. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollable regions (chat message list, sidebar, laptop pages) must not
+   let wheel/touch gestures chain past their own scroll limit into the
+   locked outer document once they run out of content to scroll. */
+.scrollbar-thin {
+  overscroll-behavior: contain;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
