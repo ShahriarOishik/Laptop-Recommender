@@ -314,3 +314,4 @@ useful if you want to understand *why* something is built the way it is, not jus
 ## License
 
 Released under the [MIT License](LICENSE).
+# laptop-recommender
