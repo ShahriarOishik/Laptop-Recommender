@@ -83,6 +83,7 @@ function App() {
           path="/developer"
           element={<DeveloperRoute />}
         />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
   );
