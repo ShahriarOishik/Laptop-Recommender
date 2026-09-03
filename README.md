@@ -11,6 +11,47 @@ data + RAG pipeline: deduplication and chunking with Apache Spark, embedding
 with `BAAI/bge-base-en-v1.5`, multiple FAISS index types benchmarked against
 each other, and a production-shaped FastAPI + React application on top.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-open-ec4899?style=for-the-badge&logo=vercel&logoColor=white)](https://laptop-recommender.vercel.app)
+[![Repository](https://img.shields.io/badge/Repository-GitHub-4f46e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShahriarOishik/Laptop-Recommender)
+
+## Live Demo
+
+[Open the deployed laptop recommender](https://laptop-recommender.vercel.app)
+
+## Technical Stack
+
+| Area | Technologies |
+|---|---|
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS |
+| Backend | Python, FastAPI, Uvicorn |
+| Retrieval | Sentence Transformers, BAAI/bge-base-en-v1.5, FAISS, Qdrant |
+| Data Processing | Apache Spark, pandas, PyArrow |
+| AI Providers | Groq, Gemini, OpenRouter |
+| Delivery | REST, Server-Sent Events, GitHub Actions |
+
+## Dependencies
+
+### Backend
+
+Install the pinned dependency ranges from `Backend/requirements.txt`:
+
+- FastAPI and Uvicorn
+- Pydantic
+- NumPy, pandas, and PyArrow
+- FAISS and Qdrant Client
+- Sentence Transformers
+- HTTPX and python-dotenv
+
+### Frontend
+
+Install the dependencies from `Frontend/package.json`:
+
+- React and React DOM
+- React Router and TanStack React Query
+- Tailwind CSS
+- Lucide React and clsx
+- TypeScript, Vite, Vitest, and Testing Library
+
 ## Table of Contents
 
 - [Features](#features)
@@ -314,4 +355,3 @@ useful if you want to understand *why* something is built the way it is, not jus
 ## License
 
 Released under the [MIT License](LICENSE).
-# laptop-recommender
